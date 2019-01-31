@@ -1,0 +1,37 @@
+timestamp=1548903301686
+
+[~A]
+ModifyID=12
+Version=74
+
+[alarma]
+A/alarma=A/Alarma 24|.\..\src\Alarma.bde|10000|1*2803
+BinI32/alarma=3*0
+I=0*529
+I/alarma=I/Alarma 0*3784
+M=11|0|vde|1548898294054|./../compile/Alarma.vhd|0*185*0xd9862698cced61d5df616db56f3685ac17b1c50c|0*446*0x23b75c12e3e89f2ef000564498faa8c2
+M/alarma=M/Alarma 21|0|vde|1548903301622|./../compile/Alarma.vhd|0*3397*0x568148916378fb5f12418ffbeda6876c0bec009b|0*3691*0x20116f55b147878295aeff36dce7fc50
+NSymbols/alarma=NSymbols/Alarma 40|0|2*0
+R=./../compile/Alarma.vhd|24
+Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|7012af82bb14989aa8ed40bcb1861025cbcd3854a4c4d4d9256618155845ba76
+Version/alarma=10.5.217.6767 (Windows)|00000000|7012af82bb14989aa8ed40bcb1861025d78c805c52f662ffc4b3fcdc656c5174
+
+[alarma_top]
+A/alarma_top=A/Alarma_Top 24|.\..\src\Alarma_Top.bde|10000|1*1704
+I=0*2459
+I/alarma_top=I/Alarma_Top 0*3150
+M=11|0|vde|1548902452244|./../compile/Alarma_Top.vhd|0*2118*0xc4dd84b6a67a6ecce35d4faa1e381ed2c1f4498c|0*2368*0x23b75c12e3e89f2ef000564498faa8c2
+M/alarma_top=M/Alarma_Top 21|0|vde|1548902452482|./../compile/Alarma_Top.vhd|0*2663*0x2c205684d52ea4e5d2e4fcc2f752b2479b2de929|0*3045*0x20116f55b147878295aeff36dce7fc50
+R=./../compile/Alarma_Top.vhd|24
+Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|5791664ebc26af0d982704fe5f5ebd0ee1367480dd93ab099bdca1010d1c9712eead83d7cc73ec58dfbb8fc9c496ec75
+Version/alarma_top=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|5791664ebc26af0d982704fe5f5ebd0ee1367480dd93ab099bdca1010d1c97121d3ea7d67188c986efdfd4b9c12577cc
+
+[~MFT]
+0=8|0Alarma.mgf|3784|1188
+1=1|1Alarma.mgf|2803|0
+2=0|2Alarma.mgf|0|0
+3=2|3Alarma.mgf|0|0
+
+[~U]
+alarma=Alarma 11|0*0||0x3
+alarma_top=Alarma_Top 11|0*1917|

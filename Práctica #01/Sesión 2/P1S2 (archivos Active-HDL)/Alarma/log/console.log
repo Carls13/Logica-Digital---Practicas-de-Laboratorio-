@@ -1,0 +1,167 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.3 [s].
+acom -O3 -e 100 -work Alarma -2002  $dsn/src/Alarma_Top.bde
+# DRC: Checking file 'c:\My_Designs\P1S2\Alarma\src\Alarma_Top.bde'.
+# DRC: Alarma_Top.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 3 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\My_Designs\P1S2\Alarma\compile\Alarma_Top.vhd from c:\My_Designs\P1S2\Alarma\src\Alarma_Top.bde ...
+# Generation successful
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: .\..\compile\Alarma_Top.vhd
+# Compile Entity "Alarma_Top"
+# Compile Architecture "Alarma_Top" of Entity "Alarma_Top"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom -2002 -work Alarma "$dsn\src\Alarma.bde"
+# DRC: Checking file 'c:\My_Designs\P1S2\Alarma\src\Alarma.bde'.
+# DRC: Alarma.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 2 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\My_Designs\P1S2\Alarma\compile\Alarma.vhd from c:\My_Designs\P1S2\Alarma\src\Alarma.bde ...
+# Generation successful
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: .\compile\Alarma.vhd
+# Compile Entity "Alarma"
+# Compile Architecture "Alarma" of Entity "Alarma"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim +access +r -advdataflow Alarma_Top
+# Warning: Verilog Optimization cannot be used when -advdataflow is in effect. Verilog Optimization disabled.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.2 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6043 kB (elbread=1280 elab2=4625 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\P1S2\Alarma\src\wave.asdb
+#  22:55, miércoles, 30 de enero de 2019
+#  Simulation has been initialized
+wave
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/P1S2/Alarma/src/wave.asdb'.
+wave  /Alarma_Top/*
+# 2 signal(s) traced.
+run 1600 ns
+# KERNEL: stopped at time: 1600 ns
+run 1600 ns
+# KERNEL: stopped at time: 3200 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Alarma_Top Alarma_Top Alarma_Top
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6043 kB (elbread=1280 elab2=4625 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\P1S2\Alarma\src\wave.asdb
+#  22:58, miércoles, 30 de enero de 2019
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/P1S2/Alarma/src/wave.asdb'.
+run 1600 ns
+# KERNEL: stopped at time: 1600 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+Alarma_Top Alarma_Top Alarma_Top
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6043 kB (elbread=1280 elab2=4625 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\P1S2\Alarma\src\wave.asdb
+#  23:00, miércoles, 30 de enero de 2019
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/P1S2/Alarma/src/wave.asdb'.
+run 1600 ns
+# KERNEL: stopped at time: 1600 ns
+# Waveform file 'c:/My_Designs/P1S2/Alarma/src/AlarmaTopSim.awc' connected to 'c:/My_Designs/P1S2/Alarma/src/AlarmaTopSim.asdb'.
+# Adding file c:\My_Designs\P1S2\Alarma\src\AlarmaTopSim.asdb ... Done
+# Adding file c:\My_Designs\P1S2\Alarma\src\AlarmaTopSim.awc ... Done
+open -awc {C:\My_Designs\P1S2\Alarma\src\AlarmaSim.awc}
+# Waveform file 'C:/My_Designs/P1S2/Alarma/src/AlarmaSim.awc' connected to 'C:/My_Designs/P1S2/Alarma/src/wave.asdb'.
+# Warning: Content of 'wave.asdb' has changed after last modification of AWC file.
+# Warning: WAVEFORM: Object matching /Alarma/A not found in C:/My_Designs/P1S2/Alarma/src/wave.asdb
+# Warning: WAVEFORM: Object matching /Alarma/C not found in C:/My_Designs/P1S2/Alarma/src/wave.asdb
+# Warning: WAVEFORM: Object matching /Alarma/L not found in C:/My_Designs/P1S2/Alarma/src/wave.asdb
+# Warning: WAVEFORM: Object matching /Alarma/M not found in C:/My_Designs/P1S2/Alarma/src/wave.asdb
+# Warning: WAVEFORM: Object matching /Alarma/P not found in C:/My_Designs/P1S2/Alarma/src/wave.asdb
+run
+asim +access +r -advdataflow Alarma_Top
+# Warning: Verilog Optimization cannot be used when -advdataflow is in effect. Verilog Optimization disabled.
+# KERNEL: stopped at time: 5250500 ns
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6043 kB (elbread=1280 elab2=4625 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\P1S2\Alarma\src\wave.asdb
+#  23:07, miércoles, 30 de enero de 2019
+#  Simulation has been initialized
+wave
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/P1S2/Alarma/src/wave.asdb'.
+wave  /Alarma_Top/*
+# 2 signal(s) traced.
+asim +access +r -advdataflow Alarma
+# Warning: Verilog Optimization cannot be used when -advdataflow is in effect. Verilog Optimization disabled.
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete 

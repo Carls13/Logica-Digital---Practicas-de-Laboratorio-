@@ -1,0 +1,8 @@
+[Version]
+Version=10.5
+[Designs]
+Alarma=Alarma.adf
+[Settings]
+Active=Alarma
+[Expand]
+alarma=1

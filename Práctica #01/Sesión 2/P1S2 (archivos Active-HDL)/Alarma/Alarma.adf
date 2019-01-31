@@ -1,0 +1,97 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=Alarma
+
+[Library]
+Alarma=.\Alarma\Alarma.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+FUNC_LIB=Alarma
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+Alarma=.
+Active_lib=
+
+[IMPLEMENTATION]
+UCF=
+
+[Folders]
+Name3=Makefiles
+Directory3=c:\My_Designs\P1S2\Alarma\
+Extension3=mak
+Name4=Memory
+Directory4=c:\My_Designs\P1S2\Alarma\
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=c:\My_Designs\P1S2\Alarma\
+Extension5=dll
+Name6=PDF
+Directory6=c:\My_Designs\P1S2\Alarma\
+Extension6=pdf
+Name7=HTML
+Directory7=c:\My_Designs\P1S2\Alarma\
+Extension7=htm;html
+
+[SpecTracer]
+WindowVisible=0
+
+[SIM.FUNC]
+FJD=FunctionalSimTask
+FST=-all
+OPTION=0
+SERVERFARM_INCLUDE_INPUT_FILES=*.*
+SERVERFARM_EXCLUDE_INPUT_FILES=log\*.*:synthesis\*.*:implement\*.*
+SERVERFARM_SFM_RESOURCE=
+TOPLEVEL=Alarma
+WAVEFORMS=
+DEFWAVE=1
+ADD_HIERARCHY_SIGNALS=0
+
+[Files]
+/Alarma.bde=-1
+/AlarmaSim.awc=-1
+/Alarma_Top.bde=-1
+/AlarmaTopSim.asdb=-1
+/AlarmaTopSim.awc=-1
+
+[Files.Data]
+.\src\Alarma.bde=Block Diagram
+.\src\AlarmaSim.awc=Accelerated Waveform Configuration
+.\src\Alarma_Top.bde=Block Diagram
+.\src\AlarmaTopSim.asdb=Accelerated Waveform File
+.\src\AlarmaTopSim.awc=Accelerated Waveform Configuration
+
+
+
+[file_out:/Alarma.bde]
+/..\compile\Alarma.vhd=-1
+[file_out:/Alarma_Top.bde]
+/..\compile\Alarma_Top.vhd=-1

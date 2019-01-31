@@ -1,0 +1,5 @@
+12
+~E 1 "./../compile/Alarma.vhd" 24 Alarma
+~A 1 "./../compile/Alarma.vhd" 34 Alarma
+~E 1 "./../compile/Alarma_Top.vhd" 24 Alarma_Top
+~A 1 "./../compile/Alarma_Top.vhd" 31 Alarma_Top
