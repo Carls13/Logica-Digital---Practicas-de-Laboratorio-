@@ -1,0 +1,33 @@
+Active-HDL 10.5.217.6767 2019-01-31 22:25:07
+
+Elaboration top modules:
+Architecture                  Alarma2(Alarma2)
+
+
+-----------------------------------------------------------------------------------------
+Entity   | Architecture | Library | Info | Compiler Version        | Compilation Options
+-----------------------------------------------------------------------------------------
+Alarma2  | Alarma2      | Alarma2 |      | 10.5.217.6767 (Windows) | -O3
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------
+VHDL Package            | Library | Info | Compiler Version        | Compilation Options
+-----------------------------------------------------------------------------------------
+standard                | std     |      |                         | <unavailable>
+TEXTIO                  | std     |      |                         | <unavailable>
+std_logic_1164          | ieee    |      |                         | <unavailable>
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------
+Library                 | Comment
+-----------------------------------------------------------------------------------------
+Alarma2                 | None
+ieee                    | Standard IEEE packages library
+std                     | Standard VHDL library
+-----------------------------------------------------------------------------------------
+
+
+Simulation Options: asim +access +r -advdataflow Alarma2
+
+
+The performance of simulation is reduced. Version Student Edition

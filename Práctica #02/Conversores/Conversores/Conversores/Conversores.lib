@@ -1,0 +1,59 @@
+timestamp=1549223483869
+
+[~A]
+ModifyID=11
+Version=74
+
+[bcd7seg]
+A/bcd7seg=21|./../src/BCD7Seg.vhd|37|1*0
+BinI32/bcd7seg=3*0
+I=0*1963
+I/bcd7seg=I/BCD7Seg 0*2164
+M=11|0|vde|1549219937262|./../src/BCD7Seg.vhd|0*0*0xe89817a64c241228d2f34a596c5c849ada38e79f|0*236*0xd986fd7175c8cf28cd774bcadde79966
+M/bcd7seg=M/BCD7Seg 21|0|vde|1549219937264|./../src/BCD7Seg.vhd|0*317*0xfa75b6419f02ad5cbe65087cc4aa573640a4d948|0*722*0xb966535deb9617f745ced53ae4cc1a7f
+NSymbols/bcd7seg=NSymbols/BCD7Seg 40|0|2*1282
+R=./../src/BCD7Seg.vhd|28
+Version=10.5.217.6767 (Windows)|00000009789cd3f53756d0353230b00000090c01c7|3be9c565403810075bb136862e89d57e26527262ddaa47cb266f3a3c4d9b973a473c04267eb5bd02d33f065893d0bcc8
+Version/bcd7seg=10.5.217.6767 (Windows)|00000009789cd3f53756d0353230b00000090c01c7|3be9c565403810075bb136862e89d57e26527262ddaa47cb266f3a3c4d9b973a473c04267eb5bd02d33f065893d0bcc8
+
+[hex7seg]
+A/hex7seg=21|./../src/Hex7Seg.vhd|37|1*1016
+BinI32/hex7seg=3*425
+I=0*2570
+I/hex7seg=I/Hex7Seg 0*2771
+M=11|0|vde|1549220014969|./../src/Hex7Seg.vhd|0*814*0x71565ad844dd766b1f555f639ec2be391c45f810|0*1050*0x23b75c12e3e89f2ef000564498faa8c2
+M/hex7seg=M/Hex7Seg 21|0|vde|1549222266302|./../src/Hex7Seg.vhd|0*1131*0x1ec5df4e439eb2d9e14dac98717a8a9b5335c572|0*1674*0x20116f55b147878295aeff36dce7fc50
+NSymbols/hex7seg=NSymbols/Hex7Seg 40|0|2*0
+R=./../src/Hex7Seg.vhd|28
+Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|bf55a286662cf21ec28d19d742c4740b26527262ddaa47cb266f3a3c4d9b973aac4439dae40bb7e36c1bc6aeab1df2f4
+Version/hex7seg=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|bf55a286662cf21ec28d19d742c4740b26527262ddaa47cb266f3a3c4d9b973adc1e0e3a2b3d2d48b4b1adb54c215030
+
+[~MFT]
+0=0|0Conversores.mgf|2771|0
+1=0|1Conversores.mgf|1016|0
+2=0|2Conversores.mgf|1282|0
+3=0|3Conversores.mgf|425|0
+
+[~U]
+bcd7seg=BCD7Seg 11|0*1766||0x3
+hex7seg=Hex7Seg 11|0*2373||0x3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

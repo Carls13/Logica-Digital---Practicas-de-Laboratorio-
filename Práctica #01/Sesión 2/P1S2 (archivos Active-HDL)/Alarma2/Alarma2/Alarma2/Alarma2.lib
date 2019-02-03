@@ -1,0 +1,24 @@
+timestamp=1548987317784
+
+[~A]
+ModifyID=2
+Version=74
+
+[alarma2]
+A/alarma2=A/Alarma2 21|./../src/Alarma2.vhd|39|1*0
+BinI32/alarma2=3*0
+I=0*529
+I/alarma2=I/Alarma2 0*1038
+M=11|0|vde|1548987276578|./../src/Alarma2.vhd|0*187*0xfab47978cfae90f7258ff371c1f08d20fa1a37bd|0*448*0x23b75c12e3e89f2ef000564498faa8c2
+M/alarma2=M/Alarma2 21|0|vde|1548987317725|./../src/Alarma2.vhd|0*730*0xa7baaf559b7445fed2a323d48800435402e9b3b2|0*946*0x20116f55b147878295aeff36dce7fc50
+R=./../src/Alarma2.vhd|28
+Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|49afac869d40959c4a22401081575a8726527262ddaa47cb266f3a3c4d9b973a4a7e3ac8d21e9528225f8835d43336e2
+Version/alarma2=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|49afac869d40959c4a22401081575a8726527262ddaa47cb266f3a3c4d9b973ae3c539035c521554205dc0bf277af7a9
+
+[~MFT]
+0=3|0Alarma2.mgf|1038|0
+1=1|1Alarma2.mgf|0|0
+3=1|3Alarma2.mgf|0|0
+
+[~U]
+alarma2=Alarma2 11|0*0|

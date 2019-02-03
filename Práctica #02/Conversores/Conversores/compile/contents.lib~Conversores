@@ -1,0 +1,5 @@
+7
+~E 1 "./../src/BCD7Seg.vhd" 28 BCD7Seg
+~A 1 "./../src/BCD7Seg.vhd" 37 BCD7Seg
+~E 1 "./../src/Hex7Seg.vhd" 28 Hex7Seg
+~A 1 "./../src/Hex7Seg.vhd" 37 Hex7Seg

@@ -1,0 +1,24 @@
+V 000048 55 679           1548987317726 Alarma2
+(_unit VHDL(alarma2 0 28(alarma2 0 39))
+	(_version vde)
+	(_time 1548987317727 2019.01.31 22:15:17)
+	(_source(\./../src/Alarma2.vhd\))
+	(_parameters tan)
+	(_code 656a3065333230726664213f356667636463366364)
+	(_ent
+		(_time 1548987276578)
+	)
+	(_object
+		(_port(_int M -1 0 30(_ent(_in))))
+		(_port(_int P -1 0 31(_ent(_in))))
+		(_port(_int L -1 0 32(_ent(_in))))
+		(_port(_int C -1 0 33(_ent(_in))))
+		(_port(_int A -1 0 34(_ent(_out))))
+		(_prcs
+			(line__42(_arch 0 0 42(_assignment(_trgt(4))(_sens(0)(1)(2)(3)))))
+		)
+		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard)))
+	(_model . Alarma2 1 -1)
+)

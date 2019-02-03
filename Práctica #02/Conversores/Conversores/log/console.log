@@ -1,0 +1,173 @@
+# Design: Design Conversores already active.
+# 
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: C-Synthesis: Not Defined
+# DESIGN: HDL Synthesis: Not Defined
+# DESIGN: Physical Synthesis: Not Defined
+# DESIGN: Implementation: Not Defined
+acom -reorder -O3 -e 100 -work Conversores -2002  $dsn/src/BCD7Seg.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Conversores\Conversores\src\BCD7Seg.vhd
+# Compile Entity "BCD7Seg"
+# Compile Architecture "BCD7Seg" of Entity "BCD7Seg"
+# Top-level unit(s) detected:
+# Entity => BCD7Seg
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work Conversores -2002  $dsn/src/BCD7Seg.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Conversores\Conversores\src\BCD7Seg.vhd
+# Compile Entity "BCD7Seg"
+# Compile Architecture "BCD7Seg" of Entity "BCD7Seg"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work Conversores -2002  $dsn/src/BCD7Seg.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Conversores\Conversores\src\BCD7Seg.vhd
+# Compile Entity "BCD7Seg"
+# Compile Architecture "BCD7Seg" of Entity "BCD7Seg"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work Conversores -2002  $dsn/src/BCD7Seg.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Conversores\Conversores\src\BCD7Seg.vhd
+# Compile Entity "BCD7Seg"
+# Compile Architecture "BCD7Seg" of Entity "BCD7Seg"
+# Error: COMP96_0040: BCD7Seg.vhd : (40, 10): Incorrect syntax of selected signal assignment.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Conversores -2002  $dsn/src/BCD7Seg.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Conversores\Conversores\src\BCD7Seg.vhd
+# Compile Entity "BCD7Seg"
+# Compile Architecture "BCD7Seg" of Entity "BCD7Seg"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work Conversores -2008  $dsn/src/BCD7Seg.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Conversores\Conversores\src\BCD7Seg.vhd
+# Compile Entity "BCD7Seg"
+# Compile Architecture "BCD7Seg" of Entity "BCD7Seg"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work Conversores -2002  $dsn/src/Hex7Seg.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Conversores\Conversores\src\Hex7Seg.vhd
+# Compile Entity "Hex7Seg"
+# Compile Architecture "Hex7Seg" of Entity "Hex7Seg"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work Conversores -2002  $dsn/src/Hex7Seg.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Conversores\Conversores\src\Hex7Seg.vhd
+# Compile Entity "Hex7Seg"
+# Compile Architecture "Hex7Seg" of Entity "Hex7Seg"
+# Error: COMP96_0015: Hex7Seg.vhd : (57, 1): ',' expected.
+# Error: COMP96_0015: Hex7Seg.vhd : (57, 1): ';' expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Conversores -2002  $dsn/src/Hex7Seg.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Conversores\Conversores\src\Hex7Seg.vhd
+# Compile Entity "Hex7Seg"
+# Compile Architecture "Hex7Seg" of Entity "Hex7Seg"
+# Error: COMP96_0301: Hex7Seg.vhd : (39, 2): The choice 'others' must be present when all alternatives are not covered.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work Conversores -2002  $dsn/src/Hex7Seg.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Conversores\Conversores\src\Hex7Seg.vhd
+# Compile Entity "Hex7Seg"
+# Compile Architecture "Hex7Seg" of Entity "Hex7Seg"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# Top-level unit has not been specified for simulation. Use "Functional Simulation Options" dialog box to specify top-level.
+asim +access +r -advdataflow Hex7Seg
+# Warning: Verilog Optimization cannot be used when -advdataflow is in effect. Verilog Optimization disabled.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6044 kB (elbread=1280 elab2=4626 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Conversores\Conversores\src\wave.asdb
+#  15:45, domingo, 3 de febrero de 2019
+#  Simulation has been initialized
+asim +access +r -advdataflow Hex7Seg
+# Warning: Verilog Optimization cannot be used when -advdataflow is in effect. Verilog Optimization disabled.
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6044 kB (elbread=1280 elab2=4626 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Conversores\Conversores\src\wave.asdb
+#  15:45, domingo, 3 de febrero de 2019
+#  Simulation has been initialized
+asim +access +r -advdataflow Hex7Seg
+# Warning: Verilog Optimization cannot be used when -advdataflow is in effect. Verilog Optimization disabled.
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6044 kB (elbread=1280 elab2=4626 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Conversores\Conversores\src\wave.asdb
+#  15:45, domingo, 3 de febrero de 2019
+#  Simulation has been initialized
+wave
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Conversores/Conversores/src/wave.asdb'.
+wave  /Hex7Seg/*
+# 2 signal(s) traced.
+run 1500 ns
+# KERNEL: stopped at time: 1500 ns
+run 1600 ns
+# KERNEL: stopped at time: 3100 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6044 kB (elbread=1280 elab2=4626 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Conversores\Conversores\src\wave.asdb
+#  15:46, domingo, 3 de febrero de 2019
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Conversores/Conversores/src/wave.asdb'.
+run 1600 ns
+# KERNEL: stopped at time: 1600 ns
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].

@@ -1,0 +1,1 @@
+-w -erf c:/My_Designs/Conversores/Conversores/compile/Conversores.erf -d c:/My_Designs/Conversores/Conversores/compile -s c:/My_Designs/Conversores/library.cfg -j c:/My_Designs/Conversores/Conversores/projlib.cfg -work Conversores -O3 -e 100 -work Conversores -2002 c:/My_Designs/Conversores/Conversores/src/Hex7Seg.vhd 

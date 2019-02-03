@@ -1,0 +1,18 @@
+[COMPILESTATUS|.\src\BCD7Seg.vhd]
+FileTimeLow=30718970
+Status=Modified
+[COMPILESTATUS|.\src\Hex7Seg.vhd]
+FileTimeLow=30718970
+Status=Modified
+[COMPILESTATUS|.\src\Conversores_Top.bde]
+FileTimeLow=30718969
+Status=Modified
+[CACHEDOC|Aldec.BDE.7|.\Conversores\src\Conversores_Top.bde|]
+PROBEBAL=0
+SymbolsToolbox=1
+ZOOMOFSETS_PAGES=1,1,2,1,1223,1429,
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+Conversores=1
+Built-in symbols=0
+[Gui config]
+RunFor=1600 ns

@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: c:\My_Designs\Alarma2\Alarma2\src\Alarma2.vhd" 
+MESSAGE "Compile Entity "Alarma2"" 
+MESSAGE "Compile Architecture "Alarma2" of Entity "Alarma2"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]" 

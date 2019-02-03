@@ -1,0 +1,1 @@
+-w -erf c:/My_Designs/Alarma2/Alarma2/compile/Alarma2.erf -d c:/My_Designs/Alarma2/Alarma2/compile -s c:/My_Designs/Alarma2/library.cfg -j c:/My_Designs/Alarma2/Alarma2/projlib.cfg -work Alarma2 -O3 -e 100 -work Alarma2 -2002 c:/My_Designs/Alarma2/Alarma2/src/Alarma2.vhd 
