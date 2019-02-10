@@ -1,0 +1,23 @@
+timestamp=1549821155474
+
+[~A]
+ModifyID=7
+Version=74
+
+[comparador4]
+BinI32/arq=3*0
+I=0*625
+I/arq=0*1675
+M=11|0|vde|1549817031958|./../src/Comparador4.vhd|0*219*0x8089897c79ce82581790cfb0a7093ac28fbdc40f|0*536*0x23b75c12e3e89f2ef000564498faa8c2
+NSymbols/comparador4=NSymbols/Comparador4 40|0|2*0
+R=./../src/Comparador4.vhd|28
+Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|86dca3330f74922f3534b313cc61cd2571e4ff1acc2f1f7580780ae5a05c982467f4665d53eb7b188db95f600a11e61c
+Version/arq=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|74cc352a67411142407bd0aa6208b1b1770ccaecdff22f085d92146f8e8a57ad
+
+[~MFT]
+0=10|0Comparador4.mgf|1675|845
+2=0|2Comparador4.mgf|0|0
+3=2|3Comparador4.mgf|0|0
+
+[~U]
+comparador4=Comparador4 11|0*0||0x3

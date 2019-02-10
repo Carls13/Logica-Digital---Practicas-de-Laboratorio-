@@ -1,0 +1,12 @@
+[Version]
+Version=10.5
+[Designs]
+comparador4=.\Comparador4\Comparador4.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+comparador4=1
