@@ -1,2 +1,3 @@
 .\src\BCD7Seg.vhd
 .\src\Hex7Seg.vhd
+.\src\Hex7Seg_Top.bde

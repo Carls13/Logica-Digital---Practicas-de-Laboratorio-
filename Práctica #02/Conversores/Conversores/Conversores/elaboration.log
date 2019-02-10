@@ -1,13 +1,13 @@
-Active-HDL 10.5.217.6767 2019-02-03 15:48:45
+Active-HDL 10.5.217.6767 2019-02-09 23:24:35
 
 Elaboration top modules:
-Architecture                  BCD7Seg(BCD7Seg)
+Architecture                  Hex7Seg(Hex7Seg)
 
 
 ---------------------------------------------------------------------------------------------
 Entity   | Architecture | Library     | Info | Compiler Version        | Compilation Options
 ---------------------------------------------------------------------------------------------
-BCD7Seg  | BCD7Seg      | Conversores |      | 10.5.217.6767 (Windows) | -O3 -2008
+Hex7Seg  | Hex7Seg      | conversores |      | 10.5.217.6767 (Windows) | -O3
 ---------------------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------------------
@@ -21,7 +21,13 @@ std_logic_1164          | ieee        |      |                         | <unavai
 ---------------------------------------------------------------------------------------------
 Library                 | Comment
 ---------------------------------------------------------------------------------------------
-Conversores             | None
+conversores             | None
 ieee                    | Standard IEEE packages library
 std                     | Standard VHDL library
 ---------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim +access +r -advdataflow Hex7Seg
+
+
+The performance of simulation is reduced. Version Student Edition

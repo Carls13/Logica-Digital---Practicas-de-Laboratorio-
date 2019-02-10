@@ -58,10 +58,12 @@ ADD_HIERARCHY_SIGNALS=0
 [Files]
 /BCD7Seg.vhd=-1
 /Hex7Seg.vhd=-1
+/Hex7Seg_Top.bde=-1
 
 [Files.Data]
 .\src\BCD7Seg.vhd=VHDL Source Code
 .\src\Hex7Seg.vhd=VHDL Source Code
+.\src\Hex7Seg_Top.bde=Block Diagram
 
 [SpecTracer]
 WindowVisible=0
