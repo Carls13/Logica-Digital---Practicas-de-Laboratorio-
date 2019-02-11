@@ -1,2 +1,4 @@
-7
+8
 ~E 1 "./../src/Comparador4.vhd" 28 Comparador4
+~E 1 "./../src/UA.vhd" 29 UA
+~A 1 "./../src/UA.vhd" 42 UA

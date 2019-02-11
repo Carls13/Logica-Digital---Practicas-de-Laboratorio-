@@ -42,15 +42,20 @@ Active_lib=
 [IMPLEMENTATION]
 UCF=
 
-[Files]
-/Comparador4.vhd=-1
-
-[Files.Data]
-.\src\Comparador4.vhd=VHDL Source Code
-
 [SpecTracer]
 WindowVisible=0
+
 [HierarchyViewer]
 HierarchyInformation=
 ShowHide=ShowTopLevel
 Selected=
+
+[Files]
+/Comparador4.vhd=-1
+/UA.vhd=-1
+
+[Files.Data]
+.\src\Comparador4.vhd=VHDL Source Code
+.\src\UA.vhd=VHDL Source Code
+.\src\UA_Top.bde=Block Diagram
+

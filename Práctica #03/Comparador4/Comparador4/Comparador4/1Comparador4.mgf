@@ -1,0 +1,31 @@
+V 000043 55 973           1549845457839 UA
+(_unit VHDL(ua 0 29(ua 0 42))
+	(_version vde)
+	(_time 1549845457840 2019.02.10 20:37:37)
+	(_source(\./../src/UA.vhd\))
+	(_parameters tan)
+	(_code 326733373164632431312768623537343335373433)
+	(_ent
+		(_time 1549845457834)
+	)
+	(_object
+		(_port(_int Op -1 0 31(_ent(_in))))
+		(_type(_int ~STD_LOGIC_VECTOR{3~downto~0}~12 0 32(_array -1((_dto i 3 i 0)))))
+		(_port(_int A 0 0 32(_ent(_in))))
+		(_port(_int B 0 0 33(_ent(_in))))
+		(_port(_int C -1 0 34(_ent(_out))))
+		(_port(_int S -1 0 35(_ent(_out))))
+		(_port(_int R 0 0 36(_ent(_out))))
+		(_type(_int ~STD_LOGIC_VECTOR{4~downto~0}~13 0 43(_array -1((_dto i 4 i 0)))))
+		(_sig(_int result 1 0 43(_arch(_uni))))
+		(_prcs
+			(line__45(_arch 0 0 45(_prcs(_simple)(_trgt(3)(4)(5)(6))(_sens(0)(1)(2)(6)))))
+		)
+		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard))(ieee(STD_LOGIC_UNSIGNED)))
+	(_static
+		(33686018 2)
+	)
+	(_model . UA 1 -1)
+)

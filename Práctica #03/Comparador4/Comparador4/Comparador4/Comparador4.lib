@@ -1,23 +1,39 @@
-timestamp=1549821155474
+timestamp=1549845493778
 
 [~A]
-ModifyID=7
+ModifyID=10
 Version=74
 
 [comparador4]
 BinI32/arq=3*0
-I=0*625
-I/arq=0*1675
-M=11|0|vde|1549817031958|./../src/Comparador4.vhd|0*219*0x8089897c79ce82581790cfb0a7093ac28fbdc40f|0*536*0x23b75c12e3e89f2ef000564498faa8c2
+I=0*1535
+I/arq=0*1740
+M=11|0|vde|1549817031958|./../src/Comparador4.vhd|0*0*0x8089897c79ce82581790cfb0a7093ac28fbdc40f|0*317*0x23b75c12e3e89f2ef000564498faa8c2
 NSymbols/comparador4=NSymbols/Comparador4 40|0|2*0
 R=./../src/Comparador4.vhd|28
 Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|86dca3330f74922f3534b313cc61cd2571e4ff1acc2f1f7580780ae5a05c982467f4665d53eb7b188db95f600a11e61c
 Version/arq=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|74cc352a67411142407bd0aa6208b1b1770ccaecdff22f085d92146f8e8a57ad
 
+[ua]
+A/ua=A/UA 21|./../src/UA.vhd|42|1*0
+BinI32/ua=3*313
+I=0*2146
+I/ua=I/UA 0*2423
+M=11|0|vde|1549845457833|./../src/UA.vhd|0*406*0xf90ad05c9757c14a02b815d19eca4bb179541766|0*742*0x23b75c12e3e89f2ef000564498faa8c2
+M/ua=M/UA 21|0|vde|1549845457838|./../src/UA.vhd|0*813*0xea5d5e82ac56eb72f2c39262736234e35e3d25fa|0*1239*0x20116f55b147878295aeff36dce7fc50
+NSymbols/ua=NSymbols/UA 40|0|2*2436
+R=./../src/UA.vhd|29
+Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|afb33acf617bb859c3718c105c5b94c44e5fdeb2607be447199681d82d1ded98
+Version/ua=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|afb33acf617bb859c3718c105c5b94c4cd86e8dd695eb8083cd25b0e92c6a4f7
+
 [~MFT]
-0=10|0Comparador4.mgf|1675|845
-2=0|2Comparador4.mgf|0|0
-3=2|3Comparador4.mgf|0|0
+0=0|0Comparador4.mgf|2423|0
+1=0|1Comparador4.mgf|0|0
+2=0|2Comparador4.mgf|2436|0
+3=0|3Comparador4.mgf|313|0
 
 [~U]
-comparador4=Comparador4 11|0*0||0x3
+comparador4=Comparador4 11|0*1316||0x3
+ua=UA 11|0*1949||0x3
+
+
