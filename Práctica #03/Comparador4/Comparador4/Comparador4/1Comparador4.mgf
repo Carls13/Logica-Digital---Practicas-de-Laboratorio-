@@ -1,3 +1,31 @@
+<<<<<<< HEAD
+V 000044 55 897           1550715336714 arq
+(_unit VHDL(comparador4 0 28(arq 0 40))
+	(_version vde)
+	(_time 1550715336745 2019.02.20 22:15:36)
+	(_source(\./../src/Comparador4.vhd\))
+	(_parameters tan)
+	(_code 396a3a3c666e392e383a28626a3f383f3d3f6f3e3b)
+	(_ent
+		(_time 1549817031958)
+	)
+	(_object
+		(_type(_int ~STD_LOGIC_VECTOR{3~downto~0}~12 0 30(_array -1((_dto i 3 i 0)))))
+		(_port(_int A 0 0 30(_ent(_in))))
+		(_port(_int B 0 0 31(_ent(_in))))
+		(_port(_int mayor -1 0 32(_ent(_out))))
+		(_port(_int igual -1 0 33(_ent(_out))))
+		(_port(_int menor -1 0 34(_ent(_out))))
+		(_prcs
+			(line__43(_arch 0 0 43(_assignment(_trgt(2))(_sens(0)(1)))))
+			(line__44(_arch 1 0 44(_assignment(_trgt(3))(_sens(0)(1)))))
+			(line__45(_arch 2 0 45(_assignment(_trgt(4))(_sens(0)(1)))))
+		)
+		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard)))
+	(_model . arq 3 -1)
+=======
 V 000043 55 973           1549845457839 UA
 (_unit VHDL(ua 0 29(ua 0 42))
 	(_version vde)
@@ -28,4 +56,5 @@ V 000043 55 973           1549845457839 UA
 		(33686018 2)
 	)
 	(_model . UA 1 -1)
+>>>>>>> 159c6642a53deabb1194a0953cd645019aaf8c8f
 )

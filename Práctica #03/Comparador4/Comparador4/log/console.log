@@ -1,0 +1,105 @@
+asim +access +r -advdataflow Comparador4
+# Warning: Verilog Optimization cannot be used when -advdataflow is in effect. Verilog Optimization disabled.
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: Architecture 'Comparador4' of entity 'Comparador4' not found in library 'comparador4'.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Error: VSIM: cannot select specified top-level
+# Error: Cannot initialize functional simulation.
+asim +access +r -advdataflow Comparador4
+# Warning: Verilog Optimization cannot be used when -advdataflow is in effect. Verilog Optimization disabled.
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: Architecture 'Comparador4' of entity 'Comparador4' not found in library 'comparador4'.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Error: VSIM: cannot select specified top-level
+# Error: Cannot initialize functional simulation.
+asim +access +r -advdataflow Comparador4
+# Warning: Verilog Optimization cannot be used when -advdataflow is in effect. Verilog Optimization disabled.
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: Architecture 'Comparador4' of entity 'Comparador4' not found in library 'comparador4'.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Error: VSIM: cannot select specified top-level
+# Error: Cannot initialize functional simulation.
+asim +access +r -advdataflow Comparador4
+# Warning: Verilog Optimization cannot be used when -advdataflow is in effect. Verilog Optimization disabled.
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: Architecture 'Comparador4' of entity 'Comparador4' not found in library 'comparador4'.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Error: VSIM: cannot select specified top-level
+# Error: Cannot initialize functional simulation.
+asim +access +r -advdataflow Comparador4
+# Warning: Verilog Optimization cannot be used when -advdataflow is in effect. Verilog Optimization disabled.
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: Architecture 'Comparador4' of entity 'Comparador4' not found in library 'comparador4'.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Error: VSIM: cannot select specified top-level
+# Error: Cannot initialize functional simulation.
+asim +access +r -advdataflow Comparador4
+# Warning: Verilog Optimization cannot be used when -advdataflow is in effect. Verilog Optimization disabled.
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: Architecture 'Comparador4' of entity 'Comparador4' not found in library 'comparador4'.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Error: VSIM: cannot select specified top-level
+# Error: Cannot initialize functional simulation.
+asim +access +r -advdataflow Comparador4
+# Warning: Verilog Optimization cannot be used when -advdataflow is in effect. Verilog Optimization disabled.
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: Architecture 'Comparador4' of entity 'Comparador4' not found in library 'comparador4'.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Error: VSIM: cannot select specified top-level
+# Error: Cannot initialize functional simulation.
+acom -2002 -work Comparador4 "$dsn\src\Comparador4.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Admin\Desktop\Logica\Prácticas de Laboratorio\Práctica #03\Comparador4\Comparador4\src\Comparador4.vhd
+# Compile Entity "Comparador4"
+# Compile Architecture "arq" of Entity "Comparador4"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+asim +access +r -advdataflow Comparador4
+# Warning: Verilog Optimization cannot be used when -advdataflow is in effect. Verilog Optimization disabled.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.7 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.6 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7067 kB (elbread=1280 elab2=5649 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Admin\Desktop\Logica\Prácticas de Laboratorio\Práctica #03\Comparador4\Comparador4\src\wave.asdb
+#  22:16, miércoles, 20 de febrero de 2019
+#  Simulation has been initialized
+wave
+# Waveform file 'untitled.awc' connected to 'C:/Users/Admin/Desktop/Logica/Prácticas de Laboratorio/Práctica #03/Comparador4/Comparador4/src/wave.asdb'.
+wave *
+# 5 signal(s) traced.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.

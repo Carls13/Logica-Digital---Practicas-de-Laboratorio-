@@ -1,0 +1,35 @@
+# Design: Design Comparador4 already active.
+# 
+acom -reorder -O3 -e 100 -work Comparador4 -2002  $dsn/src/comparador4.bde $dsn/src/comparador4.vhd
+# DRC: Checking file 'C:\Users\Admin\Desktop\Logica\Prácticas de Laboratorio\Práctica #03\Comparador4\Comparador4\Comparador4\src\comparador4.bde'.
+# DRC: comparador4.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\Users\Admin\Desktop\Logica\Prácticas de Laboratorio\Práctica #03\Comparador4\Comparador4\Comparador4\compile\comparador4.vhd from C:\Users\Admin\Desktop\Logica\Prácticas de Laboratorio\Práctica #03\Comparador4\Comparador4\Comparador4\src\comparador4.bde ...
+# Generation successful
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: .\..\compile\comparador4.vhd
+# Compile Entity "Comparador4"
+# Compile Architecture "Comparador4" of Entity "Comparador4"
+# File: C:\Users\Admin\Desktop\Logica\Prácticas de Laboratorio\Práctica #03\Comparador4\Comparador4\Comparador4\src\comparador4.vhd
+# Compile Entity "Comparador4"
+# Warning: COMP96_0994: comparador4.vhd : (28, 1): Multiple entity "Comparador4" found in "C:\Users\Admin\Desktop\Logica\Prácticas de Laboratorio\Práctica #03\Comparador4\Comparador4\Comparador4\src\comparador4.vhd", ".\..\compile\comparador4.vhd".
+# Compile Architecture "arq" of Entity "Comparador4"
+# Top-level unit(s) detected:
+# Entity => Comparador4
+# Compile success 0 Errors 1 Warnings  Analysis time :  1.0 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 2.0 [s].
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+# Design: Design "Comparador4" has been set as active.
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: Architecture 'Comparador4' of entity 'Comparador4' not found in library 'Comparador4'.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Design: Design "Comparador4" has been set as active.
+# Design: Design "Comparador4" has been set as active.
+# Design: Design "Comparador4" has been set as active.
+# Design: Design "Comparador4" has been set as active.
+# Design: Design "Comparador4" has been set as active.

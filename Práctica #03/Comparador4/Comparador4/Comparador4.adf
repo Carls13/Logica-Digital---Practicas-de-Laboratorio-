@@ -27,6 +27,7 @@ ON_SERVERFARM_SYNTH=0
 ON_SERVERFARM_IMPL=0
 ON_SERVERFARM_SIM=0
 DVM_DISPLAY=NO
+FUNC_LIB=Comparador4
 
 [LocalVerilogSets]
 EnableSLP=1
@@ -42,13 +43,37 @@ Active_lib=
 [IMPLEMENTATION]
 UCF=
 
+<<<<<<< HEAD
+[Files]
+/Comparador4.vhd=-1
+/Test.bde=-1
+
+[Files.Data]
+.\src\Comparador4.vhd=VHDL Source Code
+.\src\Test.bde=Block Diagram
+
+=======
+>>>>>>> 159c6642a53deabb1194a0953cd645019aaf8c8f
 [SpecTracer]
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=
+HierarchyInformation=comparador4|arq|0 
 ShowHide=ShowTopLevel
 Selected=
+<<<<<<< HEAD
+[SIM.FUNC]
+FJD=FunctionalSimTask
+FST=-all
+OPTION=0
+SERVERFARM_INCLUDE_INPUT_FILES=*.*
+SERVERFARM_EXCLUDE_INPUT_FILES=log\*.*:synthesis\*.*:implement\*.*
+SERVERFARM_SFM_RESOURCE=
+TOPLEVEL=Comparador4
+WAVEFORMS=
+DEFWAVE=1
+ADD_HIERARCHY_SIGNALS=1
+=======
 
 [Files]
 /Comparador4.vhd=-1
@@ -59,3 +84,4 @@ Selected=
 .\src\UA.vhd=VHDL Source Code
 .\src\UA_Top.bde=Block Diagram
 
+>>>>>>> 159c6642a53deabb1194a0953cd645019aaf8c8f

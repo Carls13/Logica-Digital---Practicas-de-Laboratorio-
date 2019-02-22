@@ -1,0 +1,11 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: .\..\compile\comparador4.vhd" 
+MESSAGE "Compile Entity "Comparador4"" 
+MESSAGE "Compile Architecture "Comparador4" of Entity "Comparador4"" 
+MESSAGE "File: C:\Users\Admin\Desktop\Logica\Prácticas de Laboratorio\Práctica #03\Comparador4\Comparador4\Comparador4\src\comparador4.vhd" 
+MESSAGE "Compile Entity "Comparador4"" 
+WARNING COMP96_0994: "Multiple entity "Comparador4" found in "C:\Users\Admin\Desktop\Logica\Prácticas de Laboratorio\Práctica #03\Comparador4\Comparador4\Comparador4\src\comparador4.vhd", ".\..\compile\comparador4.vhd"." "C:\Users\Admin\Desktop\Logica\Prácticas de Laboratorio\Práctica #03\Comparador4\Comparador4\Comparador4\src\comparador4.vhd" 28 1
+MESSAGE "Compile Architecture "arq" of Entity "Comparador4"" 
+MESSAGE "Top-level unit(s) detected:" 
+MESSAGE "Entity => Comparador4" 
+SUCCESS "Compile success 0 Errors 1 Warnings  Analysis time :  1.0 [s]" 
