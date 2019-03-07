@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: .\..\compile\MUX41.vhd" 
+MESSAGE "Compile Entity "MUX41"" 
+MESSAGE "Compile Architecture "MUX41" of Entity "MUX41"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]" 
