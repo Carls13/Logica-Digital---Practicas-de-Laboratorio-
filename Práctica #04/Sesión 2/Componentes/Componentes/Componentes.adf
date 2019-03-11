@@ -27,6 +27,7 @@ ON_SERVERFARM_SYNTH=0
 ON_SERVERFARM_IMPL=0
 ON_SERVERFARM_SIM=0
 DVM_DISPLAY=NO
+FUNC_LIB=Componentes
 
 [LocalVerilogSets]
 EnableSLP=1
@@ -45,13 +46,15 @@ UCF=
 [Files]
 /MUX21.vhd=-1
 /MUX41.bde=-1
+/DEMUX14.vhd=-1
+/Test.bde=-1
 
 [Files.Data]
 .\src\MUX21.vhd=VHDL Source Code
 .\src\MUX41.bde=Block Diagram
+.\src\DEMUX14.vhd=VHDL Source Code
+.\src\Test.bde=Block Diagram
 
-[file_out:/MUX41.bde]
-/..\compile\MUX41.vhd=-1
 
 [SpecTracer]
 WindowVisible=0
@@ -59,3 +62,16 @@ WindowVisible=0
 HierarchyInformation=
 ShowHide=ShowTopLevel
 Selected=
+[SIM.FUNC]
+FJD=FunctionalSimTask
+FST=-all
+OPTION=0
+SERVERFARM_INCLUDE_INPUT_FILES=*.*
+SERVERFARM_EXCLUDE_INPUT_FILES=log\*.*:synthesis\*.*:implement\*.*
+SERVERFARM_SFM_RESOURCE=
+TOPLEVEL=DEMUX14
+WAVEFORMS=
+DEFWAVE=1
+ADD_HIERARCHY_SIGNALS=0
+[file_out:/MUX41.bde]
+/..\compile\MUX41.vhd=-1

@@ -1,2 +1,4 @@
 .\src\MUX21.vhd
 .\src\MUX41.bde
+.\src\DEMUX14.vhd
+.\src\Test.bde
