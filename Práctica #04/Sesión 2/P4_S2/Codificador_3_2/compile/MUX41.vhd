@@ -8,7 +8,7 @@
 -------------------------------------------------------------------------------
 --
 -- File        : c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #04\Sesión 2\P4_S2\Codificador_3_2\compile\MUX41.vhd
--- Generated   : Fri Mar 15 20:25:03 2019
+-- Generated   : Fri Mar 15 22:27:07 2019
 -- From        : c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #04\Sesión 2\P4_S2\Codificador_3_2\src\MUX41.bde
 -- By          : Bde2Vhdl ver. 2.6
 --

@@ -81,9 +81,10 @@ ADD_HIERARCHY_SIGNALS=0
 .\..\..\..\..\simulacionCodificador.asdb=Accelerated Waveform File
 .\..\..\..\..\simulacionCodificador.awc=Accelerated Waveform Configuration
 .\compile\Codificador32.vhd=VHDL Source Code
+.\compile\MUX41.vhd=VHDL Source Code
 
 
-[file_out:/Codificador32.bde]
-/..\compile\Codificador32.vhd=-1
 [file_out:/MUX41.bde]
 /..\compile\MUX41.vhd=-1
+[file_out:/Codificador32.bde]
+/..\compile\Codificador32.vhd=-1

@@ -1,4 +1,4 @@
-12
+23
 ~E 1 "./../src/BCD7Seg.vhd" 28 BCD7Seg
 ~A 1 "./../src/BCD7Seg.vhd" 37 BCD7Seg
 ~E 1 "./../compile/Codificador32.vhd" 24 Codificador32
