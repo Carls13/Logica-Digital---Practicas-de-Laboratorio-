@@ -1,0 +1,5 @@
+.\src\BCD7Seg.vhd
+.\src\DEMUX14.vhd
+.\src\MUX21.vhd
+.\src\MUX41.bde
+.\src\Codificador32.bde

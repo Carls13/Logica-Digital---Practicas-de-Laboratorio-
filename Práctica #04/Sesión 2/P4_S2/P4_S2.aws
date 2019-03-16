@@ -1,0 +1,12 @@
+[Version]
+Version=10.5
+[Designs]
+codificador_3_2=.\Codificador_3_2\Codificador_3_2.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+codificador_3_2=1

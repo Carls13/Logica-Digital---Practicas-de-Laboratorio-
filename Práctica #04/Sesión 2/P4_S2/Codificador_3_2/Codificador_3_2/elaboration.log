@@ -1,0 +1,34 @@
+Active-HDL 10.5.217.6767 2019-03-15 21:18:32
+
+Elaboration top modules:
+Architecture                  Codificador32(Codificador32)
+
+
+-------------------------------------------------------------------------------------------------------
+Entity        | Architecture  | Library         | Info | Compiler Version        | Compilation Options
+-------------------------------------------------------------------------------------------------------
+Codificador32 | Codificador32 | codificador_3_2 |      | 10.5.217.6767 (Windows) | -O3
+DEMUX14       | DEMUX14       | codificador_3_2 |      | 10.5.217.6767 (Windows) | -O3
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+VHDL Package                  | Library         | Info | Compiler Version        | Compilation Options
+-------------------------------------------------------------------------------------------------------
+standard                      | std             |      |                         | <unavailable>
+TEXTIO                        | std             |      |                         | <unavailable>
+std_logic_1164                | ieee            |      |                         | <unavailable>
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+Library                       | Comment
+-------------------------------------------------------------------------------------------------------
+codificador_3_2               | None
+ieee                          | Standard IEEE packages library
+std                           | Standard VHDL library
+-------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim +access +r -advdataflow Codificador32
+
+
+The performance of simulation is reduced. Version Student Edition

@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: .\..\compile\Codificador32.vhd" 
+MESSAGE "Compile Entity "Codificador32"" 
+MESSAGE "Compile Architecture "Codificador32" of Entity "Codificador32"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]" 

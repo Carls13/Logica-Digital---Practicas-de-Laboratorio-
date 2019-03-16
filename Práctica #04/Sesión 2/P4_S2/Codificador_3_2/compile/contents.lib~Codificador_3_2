@@ -1,0 +1,11 @@
+12
+~E 1 "./../src/BCD7Seg.vhd" 28 BCD7Seg
+~A 1 "./../src/BCD7Seg.vhd" 37 BCD7Seg
+~E 1 "./../compile/Codificador32.vhd" 24 Codificador32
+~A 1 "./../compile/Codificador32.vhd" 31 Codificador32
+~E 1 "./../src/DEMUX14.vhd" 28 DEMUX14
+~A 1 "./../src/DEMUX14.vhd" 37 DEMUX14
+~E 1 "./../src/MUX21.vhd" 28 MUX21
+~A 1 "./../src/MUX21.vhd" 38 MUX21
+~E 1 "./../compile/MUX41.vhd" 24 MUX41
+~A 1 "./../compile/MUX41.vhd" 33 MUX41

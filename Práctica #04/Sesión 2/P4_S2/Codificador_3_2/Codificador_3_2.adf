@@ -1,0 +1,89 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=Codificador_3_2
+
+[Library]
+Codificador_3_2=.\Codificador_3_2\Codificador_3_2.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+FUNC_LIB=Codificador_3_2
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+Codificador_3_2=.
+Active_lib=
+
+[IMPLEMENTATION]
+UCF=
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
+
+[SIM.FUNC]
+FJD=FunctionalSimTask
+FST=-all
+OPTION=0
+SERVERFARM_INCLUDE_INPUT_FILES=*.*
+SERVERFARM_EXCLUDE_INPUT_FILES=log\*.*:synthesis\*.*:implement\*.*
+SERVERFARM_SFM_RESOURCE=
+TOPLEVEL=Codificador32
+WAVEFORMS=
+DEFWAVE=1
+ADD_HIERARCHY_SIGNALS=0
+
+[Files]
+/BCD7Seg.vhd=-1
+/DEMUX14.vhd=-1
+/MUX21.vhd=-1
+/MUX41.bde=-1
+/Codificador32.bde=-1
+/..\..\..\..\..\simulacionCodificador.asdb=-1
+/..\..\..\..\..\simulacionCodificador.awc=-1
+
+[Files.Data]
+.\src\BCD7Seg.vhd=VHDL Source Code
+.\src\DEMUX14.vhd=VHDL Source Code
+.\src\MUX21.vhd=VHDL Source Code
+.\src\MUX41.bde=Block Diagram
+.\src\Codificador32.bde=Block Diagram
+.\..\..\..\..\simulacionCodificador.asdb=Accelerated Waveform File
+.\..\..\..\..\simulacionCodificador.awc=Accelerated Waveform Configuration
+.\compile\Codificador32.vhd=VHDL Source Code
+
+
+[file_out:/Codificador32.bde]
+/..\compile\Codificador32.vhd=-1
+[file_out:/MUX41.bde]
+/..\compile\MUX41.vhd=-1

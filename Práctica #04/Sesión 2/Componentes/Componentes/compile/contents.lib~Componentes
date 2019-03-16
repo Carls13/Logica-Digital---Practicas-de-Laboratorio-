@@ -1,7 +1,0 @@
-15
-~E 1 "./../src/DEMUX14.vhd" 28 DEMUX14
-~A 1 "./../src/DEMUX14.vhd" 37 DEMUX14
-~E 1 "./../src/MUX21.vhd" 28 MUX21
-~A 1 "./../src/MUX21.vhd" 38 mux21
-~E 1 "./../compile/MUX41.vhd" 24 MUX41
-~A 1 "./../compile/MUX41.vhd" 33 mux41

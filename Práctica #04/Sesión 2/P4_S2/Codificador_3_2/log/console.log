@@ -1,0 +1,49 @@
+acom -reorder -O3 -e 100 -work Codificador_3_2 -2002  $dsn/src/BCD7Seg.vhd $dsn/src/DEMUX14.vhd $dsn/src/MUX21.vhd $dsn/src/MUX41.bde
+# DRC: Checking file 'c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #04\Sesión 2\P4_S2\Codificador_3_2\src\MUX41.bde'.
+# DRC: Warning: MUX41.bde - 0 error(s), 1 warning(s)
+# DRC: DRC process completed in 2 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #04\Sesión 2\P4_S2\Codificador_3_2\compile\MUX41.vhd from c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #04\Sesión 2\P4_S2\Codificador_3_2\src\MUX41.bde ...
+# Generation successful
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #04\Sesión 2\P4_S2\Codificador_3_2\src\BCD7Seg.vhd
+# Compile Entity "BCD7Seg"
+# Compile Architecture "BCD7Seg" of Entity "BCD7Seg"
+# File: c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #04\Sesión 2\P4_S2\Codificador_3_2\src\DEMUX14.vhd
+# Compile Entity "DEMUX14"
+# Compile Architecture "DEMUX14" of Entity "DEMUX14"
+# File: c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #04\Sesión 2\P4_S2\Codificador_3_2\src\MUX21.vhd
+# Compile Entity "MUX21"
+# Compile Architecture "MUX21" of Entity "MUX21"
+# File: .\..\compile\MUX41.vhd
+# Compile Entity "MUX41"
+# Compile Architecture "MUX41" of Entity "MUX41"
+# Top-level unit(s) detected:
+# Entity => DEMUX14
+# Entity => BCD7Seg
+# Entity => MUX41
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+# DRC: Checking file 'c:/Users/gianfranco/Downloads/Logica-Digital---Practicas-de-Laboratorio--master/Práctica #04/Sesión 2/P4_S2/Codificador_3_2/src/Codificador32.bde'.
+# DRC: Error: Codificador32.bde - 8 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+acom -O3 -e 100 -work Codificador_3_2 -2002  $dsn/src/Codificador32.bde
+# DRC: Checking file 'c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #04\Sesión 2\P4_S2\Codificador_3_2\src\Codificador32.bde'.
+# DRC: Error: Codificador32.bde - 8 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+acom -O3 -e 100 -work Codificador_3_2 -2002  $dsn/src/Codificador32.bde
+# DRC: Checking file 'c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #04\Sesión 2\P4_S2\Codificador_3_2\src\Codificador32.bde'.
+# DRC: Error: Codificador32.bde - 8 error(s), 0 warning(s)
+# DRC: DRC process completed in 2 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# DRC: Checking file 'c:/Users/gianfranco/Downloads/Logica-Digital---Practicas-de-Laboratorio--master/Práctica #04/Sesión 2/P4_S2/Codificador_3_2/src/Codificador32.bde'.
+# DRC: Error: Codificador32.bde - 8 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+acom -O3 -e 100 -work Codificador_3_2 -2002  $dsn/src/Codificador32.bde
+# DRC: Checking file 'c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #04\Sesión 2\P4_S2\Codificador_3_2\src\Codificador32.bde'.
+# DRC: Codificador32.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #04\Sesión 2\P4_S2\Codificador_3_2\compile\Codif
