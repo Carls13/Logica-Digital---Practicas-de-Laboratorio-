@@ -1,14 +1,18 @@
-Active-HDL 10.5.217.6767 2019-03-15 21:18:32
+Active-HDL 10.5.217.6767 2019-03-17 13:44:55
 
 Elaboration top modules:
-Architecture                  Codificador32(Codificador32)
+Architecture                  Sistema(Sistema)
 
 
 -------------------------------------------------------------------------------------------------------
 Entity        | Architecture  | Library         | Info | Compiler Version        | Compilation Options
 -------------------------------------------------------------------------------------------------------
-Codificador32 | Codificador32 | codificador_3_2 |      | 10.5.217.6767 (Windows) | -O3
-DEMUX14       | DEMUX14       | codificador_3_2 |      | 10.5.217.6767 (Windows) | -O3
+Sistema       | Sistema       | codificador_3_2 |      | 10.5.217.6767 (Windows) | -O3
+Codificador32 | codificador32 | codificador_3_2 |      | 10.5.217.6767 (Windows) | -O3
+MUX41         | mux41         | codificador_3_2 |      | 10.5.217.6767 (Windows) | -O3
+BCD7Seg       | bcd7seg       | codificador_3_2 |      | 10.5.217.6767 (Windows) | -O3
+MUX21         | mux21         | codificador_3_2 |      | 10.5.217.6767 (Windows) | -O3
+DEMUX14       | demux14       | codificador_3_2 |      | 10.5.217.6767 (Windows) | -O3
 -------------------------------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------------------------------
@@ -17,6 +21,9 @@ VHDL Package                  | Library         | Info | Compiler Version       
 standard                      | std             |      |                         | <unavailable>
 TEXTIO                        | std             |      |                         | <unavailable>
 std_logic_1164                | ieee            |      |                         | <unavailable>
+std_logic_arith               | ieee            |      |                         | <unavailable>
+STD_LOGIC_SIGNED              | ieee            |      |                         | <unavailable>
+STD_LOGIC_UNSIGNED            | ieee            |      |                         | <unavailable>
 -------------------------------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------------------------------
@@ -26,9 +33,3 @@ codificador_3_2               | None
 ieee                          | Standard IEEE packages library
 std                           | Standard VHDL library
 -------------------------------------------------------------------------------------------------------
-
-
-Simulation Options: asim +access +r -advdataflow Codificador32
-
-
-The performance of simulation is reduced. Version Student Edition

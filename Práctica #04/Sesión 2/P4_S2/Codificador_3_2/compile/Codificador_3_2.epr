@@ -1,6 +1,2 @@
-"c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #04\Sesión 2\P4_S2\Codificador_3_2\src\BCD7Seg.vhd" VHDL Codificador_3_2 1 0 0 -02
-"c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #04\Sesión 2\P4_S2\Codificador_3_2\src\DEMUX14.vhd" VHDL Codificador_3_2 1 0 0 -02
-"c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #04\Sesión 2\P4_S2\Codificador_3_2\src\MUX21.vhd" VHDL Codificador_3_2 1 0 0 -02
-".\..\compile\MUX41.vhd" VHDL Codificador_3_2 1 0 0 -02
-".\..\compile\Codificador32.vhd" VHDL Codificador_3_2 1 0 0 -02
+".\..\compile\Sistema.vhd" VHDL Codificador_3_2 1 0 0 -02
 . . 0 0 0

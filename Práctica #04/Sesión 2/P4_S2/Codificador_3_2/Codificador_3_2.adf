@@ -47,7 +47,7 @@ UCF=
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=
+HierarchyInformation=codificador32|Codificador32|0
 ShowHide=ShowTopLevel
 Selected=
 
@@ -58,7 +58,7 @@ OPTION=0
 SERVERFARM_INCLUDE_INPUT_FILES=*.*
 SERVERFARM_EXCLUDE_INPUT_FILES=log\*.*:synthesis\*.*:implement\*.*
 SERVERFARM_SFM_RESOURCE=
-TOPLEVEL=Codificador32
+TOPLEVEL=Sistema
 WAVEFORMS=
 DEFWAVE=1
 ADD_HIERARCHY_SIGNALS=0
@@ -71,6 +71,8 @@ ADD_HIERARCHY_SIGNALS=0
 /Codificador32.bde=-1
 /..\..\..\..\..\simulacionCodificador.asdb=-1
 /..\..\..\..\..\simulacionCodificador.awc=-1
+/Sistema.bde=-1
+/..\..\..\..\..\simSistema.awc=-1
 
 [Files.Data]
 .\src\BCD7Seg.vhd=VHDL Source Code
@@ -80,11 +82,15 @@ ADD_HIERARCHY_SIGNALS=0
 .\src\Codificador32.bde=Block Diagram
 .\..\..\..\..\simulacionCodificador.asdb=Accelerated Waveform File
 .\..\..\..\..\simulacionCodificador.awc=Accelerated Waveform Configuration
-.\compile\Codificador32.vhd=VHDL Source Code
-.\compile\MUX41.vhd=VHDL Source Code
-
+.\src\Sistema.bde=Block Diagram
+.\..\..\..\..\simSistema.awc=Accelerated Waveform Configuration
+.\compile\Sistema.vhd=VHDL Source Code
 
 [file_out:/MUX41.bde]
 /..\compile\MUX41.vhd=-1
+
 [file_out:/Codificador32.bde]
 /..\compile\Codificador32.vhd=-1
+
+[file_out:/Sistema.bde]
+/..\compile\Sistema.vhd=-1
