@@ -6,7 +6,7 @@
     </comment>
     <databases>
         <database id="">*virtual*</database>
-        <database id="LOCAL___a1848e5c76a674090100">Práctica #04/Sesión 2/P4_S2/Codificador_3_2/src/wave.asdb</database>
+        <database id="LOCAL___bdba8e5c6304480a0800">Práctica #04/Sesión 2/P4_S2/Codificador_3_2/src/wave.asdb</database>
     </databases>
     <signallists>
         <signallist id="0">
@@ -20,7 +20,7 @@
     </signallists>
     <prefbases>
         <prefbase id="0" >
-            <pref name="End Time" value="2" />
+            <pref name="End Time" value="865114" />
             <pref name="Start Time" value="0" />
         </prefbase>
     </prefbases>
@@ -30,7 +30,7 @@
     </bookmarkbases>
     <cursorbases>
         <cursors id="0">
-            <cursor value="0" label="Cursor 1" locked="0" />
+            <cursor value="1017" label="Cursor 1" locked="0" />
         </cursors>
     </cursorbases>
     <measurementbases>
@@ -40,6 +40,6 @@
         </comments>
     </commentbases>
     <views>
-        <view signallist="0" propertybase="0" prefbase="0" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
+        <view signallist="0" propertybase="0" prefbase="-1" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
     </views>
 </config>

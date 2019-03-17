@@ -1,4 +1,4 @@
-Active-HDL 10.5.217.6767 2019-03-17 13:44:55
+Active-HDL 10.5.217.6767 2019-03-17 17:23:08
 
 Elaboration top modules:
 Architecture                  Sistema(Sistema)
@@ -9,6 +9,7 @@ Entity        | Architecture  | Library         | Info | Compiler Version       
 -------------------------------------------------------------------------------------------------------
 Sistema       | Sistema       | codificador_3_2 |      | 10.5.217.6767 (Windows) | -O3
 Codificador32 | codificador32 | codificador_3_2 |      | 10.5.217.6767 (Windows) | -O3
+MuxMapper     | MuxMapper     | codificador_3_2 |      | 10.5.217.6767 (Windows) | -O3
 MUX41         | mux41         | codificador_3_2 |      | 10.5.217.6767 (Windows) | -O3
 BCD7Seg       | bcd7seg       | codificador_3_2 |      | 10.5.217.6767 (Windows) | -O3
 MUX21         | mux21         | codificador_3_2 |      | 10.5.217.6767 (Windows) | -O3

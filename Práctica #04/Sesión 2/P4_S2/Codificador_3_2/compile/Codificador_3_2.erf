@@ -2,4 +2,4 @@ WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line break
 MESSAGE "File: .\..\compile\Sistema.vhd" 
 MESSAGE "Compile Entity "Sistema"" 
 MESSAGE "Compile Architecture "Sistema" of Entity "Sistema"" 
-SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]" 

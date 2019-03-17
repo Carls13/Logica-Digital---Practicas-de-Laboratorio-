@@ -8,7 +8,7 @@
 -------------------------------------------------------------------------------
 --
 -- File        : c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #04\Sesión 2\P4_S2\Codificador_3_2\compile\Sistema.vhd
--- Generated   : Sun Mar 17 13:44:47 2019
+-- Generated   : Sun Mar 17 16:51:24 2019
 -- From        : c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #04\Sesión 2\P4_S2\Codificador_3_2\src\Sistema.bde
 -- By          : Bde2Vhdl ver. 2.6
 --
@@ -66,6 +66,26 @@ component MUX41
        Y : out STD_LOGIC
   );
 end component;
+component MuxMapper
+  port (
+       Disp0 : in STD_LOGIC;
+       Disp1 : in STD_LOGIC;
+       Disp2 : in STD_LOGIC;
+       Disp3 : in STD_LOGIC;
+       Disp4 : in STD_LOGIC;
+       Disp5 : in STD_LOGIC;
+       Disp6 : in STD_LOGIC;
+       Disp7 : in STD_LOGIC;
+       De0 : out STD_LOGIC;
+       De1 : out STD_LOGIC;
+       De2 : out STD_LOGIC;
+       De3 : out STD_LOGIC;
+       De4 : out STD_LOGIC;
+       De5 : out STD_LOGIC;
+       De6 : out STD_LOGIC;
+       De7 : out STD_LOGIC
+  );
+end component;
 
 ----     Constants     -----
 constant GND_CONSTANT   : STD_LOGIC := '0';
@@ -79,6 +99,7 @@ signal A3 : STD_LOGIC;
 signal GND : STD_LOGIC;
 signal NET1161 : STD_LOGIC;
 signal NET1168 : STD_LOGIC;
+signal De : STD_LOGIC_VECTOR(7 downto 0);
 signal MUL : STD_LOGIC_VECTOR(3 downto 0);
 signal S : STD_LOGIC_VECTOR(3 downto 0);
 
@@ -105,12 +126,32 @@ MUL(0) <= A1 and A0;
 
 MUL(3) <= not(A1 xor A0);
 
+U16 : MuxMapper
+  port map(
+       De0 => De(0),
+       De1 => De(1),
+       De2 => De(2),
+       De3 => De(3),
+       De4 => De(4),
+       De5 => De(5),
+       De6 => De(6),
+       De7 => De(7),
+       Disp0 => Disp(0),
+       Disp1 => Disp(1),
+       Disp2 => Disp(2),
+       Disp3 => Disp(3),
+       Disp4 => Disp(4),
+       Disp5 => Disp(5),
+       Disp6 => Disp(6),
+       Disp7 => Disp(7)
+  );
+
 U2 : MUX41
   port map(
-       E(0) => Disp(0),
-       E(1) => Disp(1),
-       E(2) => Disp(2),
-       E(3) => Disp(3),
+       E(0) => De(0),
+       E(1) => De(1),
+       E(2) => De(2),
+       E(3) => De(3),
        S0 => S(0),
        S1 => S(1),
        Y => D(0)
@@ -124,10 +165,10 @@ U3 : BCD7Seg
 
 U4 : MUX41
   port map(
-       E(0) => Disp(4),
-       E(1) => Disp(5),
-       E(2) => Disp(6),
-       E(3) => Disp(7),
+       E(0) => De(4),
+       E(1) => De(5),
+       E(2) => De(6),
+       E(3) => De(7),
        S0 => S(0),
        S1 => S(1),
        Y => D(1)

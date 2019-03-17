@@ -1,14 +1,14 @@
-timestamp=1552844687873
+timestamp=1552861902759
 
 [~A]
-ModifyID=36
+ModifyID=51
 Version=74
 
 [bcd7seg]
 A/bcd7seg=21|./../src/BCD7Seg.vhd|37|1*0
 BinI32/bcd7seg=3*0
-I=0*4296
-I/bcd7seg=I/BCD7Seg 0*4497
+I=0*8111
+I/bcd7seg=I/BCD7Seg 0*8312
 M=11|0|vde|1552695904720|./../src/BCD7Seg.vhd|0*0*0x27073e240692d4a9b066a47d1ff6663296b9402e|0*236*0x23b75c12e3e89f2ef000564498faa8c2
 M/bcd7seg=M/BCD7Seg 21|0|vde|1552703227571|./../src/BCD7Seg.vhd|0*317*0x8fe50a2201a2c8d3e5a69cf62696604b5b43c699|0*722*0x20116f55b147878295aeff36dce7fc50
 NSymbols/bcd7seg=NSymbols/BCD7Seg 40|0|2*6079
@@ -19,8 +19,8 @@ Version/bcd7seg=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|3be9c5654
 [codificador32]
 A/codificador32=24|.\..\src\Codificador32.bde|10000|1*1016
 BinI32/codificador32=3*425
-I=0*4911
-I/codificador32=I/Codificador32 0*5118
+I=0*8726
+I/codificador32=I/Codificador32 0*8933
 M=11|0|vde|1552698758247|./../compile/Codificador32.vhd|0*2418*0x30a40aed1908f32a42df1f77f7aab7389ef5cf79|0*2678*0x23b75c12e3e89f2ef000564498faa8c2
 M/codificador32=M/Codificador32 21|0|vde|1552703227665|./../compile/Codificador32.vhd|0*3346*0xa255e9b97683f9a9201f96ae1efee82d8acb776a|0*3985*0x20116f55b147878295aeff36dce7fc50
 NSymbols/codificador32=NSymbols/Codificador32 40|0|2*0
@@ -31,8 +31,8 @@ Version/codificador32=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|4b2
 [demux14]
 A/demux14=21|./../src/DEMUX14.vhd|37|1*2678
 BinI32/demux14=3*711
-I=0*5566
-I/demux14=I/DEMUX14 0*5767
+I=0*9381
+I/demux14=I/DEMUX14 0*9582
 M=11|0|vde|1552695904791|./../src/DEMUX14.vhd|0*814*0x6f7f92bc119308a0286d8bc3ae648fa1bca3ec59|0*1046*0x23b75c12e3e89f2ef000564498faa8c2
 M/demux14=M/DEMUX14 21|0|vde|1552703227599|./../src/DEMUX14.vhd|0*1127*0x7cb91ba5495a89c01e4a813dbaf8a39b5d8ea9e4|0*1387*0x20116f55b147878295aeff36dce7fc50
 NSymbols/demux14=NSymbols/DEMUX14 40|0|2*1326
@@ -43,8 +43,8 @@ Version/demux14=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|849c34dd4
 [mux21]
 A/mux21=21|./../src/MUX21.vhd|38|1*3704
 BinI32/mux21=3*993
-I=0*6167
-I/mux21=I/MUX21 0*6366
+I=0*9982
+I/mux21=I/MUX21 0*10181
 M=11|0|vde|1552695904826|./../src/MUX21.vhd|0*1479*0x8a93f50532841f26106dfd46134afe67a1a4b566|0*1708*0x23b75c12e3e89f2ef000564498faa8c2
 M/mux21=M/MUX21 21|0|vde|1552703227633|./../src/MUX21.vhd|0*1785*0xff2f0c80f2790beaf7aa2de644628c26119f5ec8|0*1997*0x20116f55b147878295aeff36dce7fc50
 NSymbols/mux21=NSymbols/MUX21 40|0|2*2603
@@ -54,8 +54,8 @@ Version/mux21=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|959acea00ed
 
 [mux41]
 A/mux41=24|.\..\src\MUX41.bde|10000|1*4423
-I=0*6766
-I/mux41=I/MUX41 0*6965
+I=0*10581
+I/mux41=I/MUX41 0*10780
 M=11|0|vde|1552695904883|./../compile/MUX41.vhd|0*2083*0xf31162cff3863fc98940db25f94965304aab205a|0*2337*0x23b75c12e3e89f2ef000564498faa8c2
 M/mux41=M/MUX41 21|0|vde|1552703227654|./../compile/MUX41.vhd|0*2775*0x1d1a1f0c227b62e232825b6127b2273b1a74c586|0*3256*0x20116f55b147878295aeff36dce7fc50
 NSymbols/mux41=NSymbols/MUX41 40|0|2*4180
@@ -63,27 +63,41 @@ R=./../compile/MUX41.vhd|24
 Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|6feca6848b2cd74286aec1eb9d46b687afb47655ce43b4324c3b61ac6d2bdd6e
 Version/mux41=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|6feca6848b2cd74286aec1eb9d46b687617c8186f581dbbe2303d3261ea68b6e
 
+[muxmapper]
+A/muxmapper=A/MuxMapper 24|.\..\src\MuxMapper.bde|10000|1*34738
+BinI32/muxmapper=3*2409
+I=0*11245
+I/muxmapper=I/MuxMapper 0*16501
+M=11|0|vde|1552855136781|./../compile/MuxMapper.vhd|0*6553*0x01d3e1ba650144459572e565fa5e22ed3aa6f4ce|0*7083*0x23b75c12e3e89f2ef000564498faa8c2
+M/muxmapper=M/MuxMapper 21|0|vde|1552855768741|./../compile/MuxMapper.vhd|0*15759*0xd9cd645bd275709bb8a55cfb02950ee042ac4023|0*16399*0x20116f55b147878295aeff36dce7fc50
+NSymbols/muxmapper=NSymbols/MuxMapper 40|0|2*7361
+R=./../compile/MuxMapper.vhd|24
+Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|9f43a89c53b32ec15b5fcb9d1eb7686787f9e7ef4b01a312e0da19f69348014ca34c270a960c859f9fae5f239cc74aaa
+Version/muxmapper=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|9f43a89c53b32ec15b5fcb9d1eb7686787f9e7ef4b01a312e0da19f69348014c346fdc183ab86c541cbd4f06f07a9752
+
 [sistema]
-A/sistema=A/Sistema 24|.\..\src\Sistema.bde|10000|1*21186
-BinI32/sistema=3*1233
-I=0*7950
-I/sistema=I/Sistema 0*17290
-M=11|0|vde|1552843780733|./../compile/Sistema.vhd|0*7423*0x457db65001fd4332e8dcf6d1c70a6965f3fce1b0|0*7865*0x23b75c12e3e89f2ef000564498faa8c2
-M/sistema=M/Sistema 21|0|vde|1552844687838|./../compile/Sistema.vhd|0*15363*0x59da43c84b72a7c29bc4b43e0ba685b2e60d8198|0*17194*0x20116f55b147878295aeff36dce7fc50
+A/sistema=A/Sistema 24|.\..\src\Sistema.bde|10000|1*43240
+BinI32/sistema=3*2762
+I=0*11883
+I/sistema=I/Sistema 0*22496
+M=11|0|vde|1552843780733|./../compile/Sistema.vhd|0*4099*0x457db65001fd4332e8dcf6d1c70a6965f3fce1b0|0*4541*0x23b75c12e3e89f2ef000564498faa8c2
+M/sistema=M/Sistema 21|0|vde|1552855884852|./../compile/Sistema.vhd|0*19842*0x430ba2fc7432da29ce39b8661827e9a8340cfe05|0*22400*0x20116f55b147878295aeff36dce7fc50
+NSymbols/sistema=NSymbols/Sistema 40|0|2*13208
 R=./../compile/Sistema.vhd|27
 Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|b5f1b0bf421d92a14a66974659fd368b26527262ddaa47cb266f3a3c4d9b973a5613434df8e5e0089e35b6c46dad0a91
-Version/sistema=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|b5f1b0bf421d92a14a66974659fd368b26527262ddaa47cb266f3a3c4d9b973a614225ca8e4c1b47ad0f49c102feb236
+Version/sistema=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|b5f1b0bf421d92a14a66974659fd368b26527262ddaa47cb266f3a3c4d9b973ae836bda600d3d86f232345ae81e5b343
 
 [~MFT]
-0=8|0Codificador_3_2.mgf|17290|7107
-1=1|1Codificador_3_2.mgf|21186|0
-2=0|2Codificador_3_2.mgf|6079|0
-3=2|3Codificador_3_2.mgf|1233|0
+0=8|0Codificador_3_2.mgf|22496|9580
+1=1|1Codificador_3_2.mgf|43240|0
+2=1|2Codificador_3_2.mgf|13208|0
+3=2|3Codificador_3_2.mgf|2762|1176
 
 [~U]
-bcd7seg=BCD7Seg 11|0*4099||0x3
-codificador32=Codificador32 11|0*4706||0x3
-demux14=DEMUX14 11|0*5373||0x3
-mux21=MUX21 11|0*5976||0x3
-mux41=MUX41 11|0*6571||0x3
-sistema=Sistema 11|0*7201|
+bcd7seg=BCD7Seg 11|0*7914||0x3
+codificador32=Codificador32 11|0*8521||0x3
+demux14=DEMUX14 11|0*9188||0x3
+mux21=MUX21 11|0*9791||0x3
+mux41=MUX41 11|0*10386||0x3
+muxmapper=MuxMapper 11|0*11016||0x3
+sistema=Sistema 11|0*11661||0x3
