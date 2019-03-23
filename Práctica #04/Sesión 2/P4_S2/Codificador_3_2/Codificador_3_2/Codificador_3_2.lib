@@ -1,7 +1,7 @@
-timestamp=1552861902759
+timestamp=1553370297954
 
 [~A]
-ModifyID=51
+ModifyID=58
 Version=74
 
 [bcd7seg]
@@ -17,16 +17,16 @@ Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|3be9c565403810075
 Version/bcd7seg=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|3be9c565403810075bb136862e89d57e26527262ddaa47cb266f3a3c4d9b973ab5190138d7a5218e0075ad3f160100bc
 
 [codificador32]
-A/codificador32=24|.\..\src\Codificador32.bde|10000|1*1016
-BinI32/codificador32=3*425
+A/codificador32=A/Codificador32 24|.\..\src\Codificador32.bde|10000|1*49577
+BinI32/codificador32=3*3174
 I=0*8726
-I/codificador32=I/Codificador32 0*8933
+I/codificador32=I/Codificador32 0*23723
 M=11|0|vde|1552698758247|./../compile/Codificador32.vhd|0*2418*0x30a40aed1908f32a42df1f77f7aab7389ef5cf79|0*2678*0x23b75c12e3e89f2ef000564498faa8c2
-M/codificador32=M/Codificador32 21|0|vde|1552703227665|./../compile/Codificador32.vhd|0*3346*0xa255e9b97683f9a9201f96ae1efee82d8acb776a|0*3985*0x20116f55b147878295aeff36dce7fc50
+M/codificador32=M/Codificador32 21|0|vde|1553363898066|./../compile/Codificador32.vhd|0*22970*0xa255e9b97683f9a9201f96ae1efee82d8acb776a|0*23609*0x20116f55b147878295aeff36dce7fc50
 NSymbols/codificador32=NSymbols/Codificador32 40|0|2*0
 R=./../compile/Codificador32.vhd|24
 Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|4b2056201d22a66c41f991eddcfe0fbfdc8da9e9efe8c56b66e66e508aa6985914310979df3d9839d941570ba2285eca
-Version/codificador32=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|4b2056201d22a66c41f991eddcfe0fbfdc8da9e9efe8c56b66e66e508aa69859f738981ffc0a993679d6c4f6f11993b8
+Version/codificador32=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|4b2056201d22a66c41f991eddcfe0fbfdc8da9e9efe8c56b66e66e508aa69859b432c4f770f5c00ab6ed925f8d77b0b1
 
 [demux14]
 A/demux14=21|./../src/DEMUX14.vhd|37|1*2678
@@ -76,22 +76,33 @@ Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|9f43a89c53b32ec15
 Version/muxmapper=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|9f43a89c53b32ec15b5fcb9d1eb7686787f9e7ef4b01a312e0da19f69348014c346fdc183ab86c541cbd4f06f07a9752
 
 [sistema]
-A/sistema=A/Sistema 24|.\..\src\Sistema.bde|10000|1*43240
-BinI32/sistema=3*2762
+A/sistema=A/Sistema 24|.\..\src\Sistema.bde|10000|1*51239
+BinI32/sistema=3*3460
 I=0*11883
-I/sistema=I/Sistema 0*22496
+I/sistema=I/Sistema 0*26632
 M=11|0|vde|1552843780733|./../compile/Sistema.vhd|0*4099*0x457db65001fd4332e8dcf6d1c70a6965f3fce1b0|0*4541*0x23b75c12e3e89f2ef000564498faa8c2
-M/sistema=M/Sistema 21|0|vde|1552855884852|./../compile/Sistema.vhd|0*19842*0x430ba2fc7432da29ce39b8661827e9a8340cfe05|0*22400*0x20116f55b147878295aeff36dce7fc50
+M/sistema=M/Sistema 21|0|vde|1553370286146|./../compile/Sistema.vhd|0*23978*0x430ba2fc7432da29ce39b8661827e9a8340cfe05|0*26536*0x20116f55b147878295aeff36dce7fc50
 NSymbols/sistema=NSymbols/Sistema 40|0|2*13208
 R=./../compile/Sistema.vhd|27
 Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|b5f1b0bf421d92a14a66974659fd368b26527262ddaa47cb266f3a3c4d9b973a5613434df8e5e0089e35b6c46dad0a91
-Version/sistema=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|b5f1b0bf421d92a14a66974659fd368b26527262ddaa47cb266f3a3c4d9b973ae836bda600d3d86f232345ae81e5b343
+Version/sistema=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|b5f1b0bf421d92a14a66974659fd368b26527262ddaa47cb266f3a3c4d9b973a0d21aa136437a6da3e86a4cda9652383
+
+[sistema_top]
+A/sistema_top=A/Sistema_Top 24|.\..\src\Sistema_Top.bde|10000|1*57576
+BinI32/sistema_top=3*3872
+I=0*27819
+I/sistema_top=I/Sistema_Top 0*28990
+M=11|0|vde|1553370297915|./../compile/Sistema_Top.vhd|0*27345*0xb71063ef58e3faf6159d17a0cb9daf2563dd18e4|0*27726*0x23b75c12e3e89f2ef000564498faa8c2
+M/sistema_top=M/Sistema_Top 21|0|vde|1553370297921|./../compile/Sistema_Top.vhd|0*28024*0xb9b51caf9574afe5a687ad277945a17d01b46f70|0*28882*0x20116f55b147878295aeff36dce7fc50
+R=./../compile/Sistema_Top.vhd|24
+Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|58049c3aa5d494b18d8d4632d660cb33b56090c1044e12c7f906a24fc6b5a0a04ab3ae73c24adb412c354a4a08547423
+Version/sistema_top=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|58049c3aa5d494b18d8d4632d660cb33b56090c1044e12c7f906a24fc6b5a0a04ab3ae73c24adb412c354a4a08547423
 
 [~MFT]
-0=8|0Codificador_3_2.mgf|22496|9580
-1=1|1Codificador_3_2.mgf|43240|0
-2=1|2Codificador_3_2.mgf|13208|0
-3=2|3Codificador_3_2.mgf|2762|1176
+0=7|0Codificador_3_2.mgf|28990|13716
+1=1|1Codificador_3_2.mgf|57576|0
+2=0|2Codificador_3_2.mgf|13208|0
+3=1|3Codificador_3_2.mgf|3872|1874
 
 [~U]
 bcd7seg=BCD7Seg 11|0*7914||0x3
@@ -101,3 +112,4 @@ mux21=MUX21 11|0*9791||0x3
 mux41=MUX41 11|0*10386||0x3
 muxmapper=MuxMapper 11|0*11016||0x3
 sistema=Sistema 11|0*11661||0x3
+sistema_top=Sistema_Top 11|0*27106|

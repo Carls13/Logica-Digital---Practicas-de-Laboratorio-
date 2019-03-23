@@ -1,8 +1,8 @@
-49
+58
 ~E 1 "./../src/BCD7Seg.vhd" 28 BCD7Seg
 ~A 1 "./../src/BCD7Seg.vhd" 37 bcd7seg
 ~E 1 "./../compile/Codificador32.vhd" 24 Codificador32
-~A 1 "./../compile/Codificador32.vhd" 31 codificador32
+~A 1 "./../compile/Codificador32.vhd" 31 Codificador32
 ~E 1 "./../src/DEMUX14.vhd" 28 DEMUX14
 ~A 1 "./../src/DEMUX14.vhd" 37 demux14
 ~E 1 "./../src/MUX21.vhd" 28 MUX21
@@ -13,3 +13,5 @@
 ~A 1 "./../compile/MuxMapper.vhd" 45 MuxMapper
 ~E 1 "./../compile/Sistema.vhd" 27 Sistema
 ~A 1 "./../compile/Sistema.vhd" 38 Sistema
+~E 1 "./../compile/Sistema_Top.vhd" 24 Sistema_Top
+~A 1 "./../compile/Sistema_Top.vhd" 35 Sistema_Top

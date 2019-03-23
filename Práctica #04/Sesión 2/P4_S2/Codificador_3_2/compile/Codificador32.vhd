@@ -8,7 +8,7 @@
 -------------------------------------------------------------------------------
 --
 -- File        : c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #04\Sesión 2\P4_S2\Codificador_3_2\compile\Codificador32.vhd
--- Generated   : Fri Mar 15 22:26:50 2019
+-- Generated   : Sat Mar 23 13:58:13 2019
 -- From        : c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #04\Sesión 2\P4_S2\Codificador_3_2\src\Codificador32.bde
 -- By          : Bde2Vhdl ver. 2.6
 --

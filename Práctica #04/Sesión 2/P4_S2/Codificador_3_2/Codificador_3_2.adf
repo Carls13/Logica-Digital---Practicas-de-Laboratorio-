@@ -47,7 +47,7 @@ UCF=
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=sistema|Sistema|0 
+HierarchyInformation=sistema|Sistema|0
 ShowHide=ShowTopLevel
 Selected=
 
@@ -63,14 +63,6 @@ WAVEFORMS=
 DEFWAVE=1
 ADD_HIERARCHY_SIGNALS=0
 
-[file_out:/MUX41.bde]
-/..\compile\MUX41.vhd=-1
-
-
-[file_out:/MuxMapper.bde]
-/..\compile\MuxMapper.vhd=-1
-
-
 [Files]
 /BCD7Seg.vhd=-1
 /DEMUX14.vhd=-1
@@ -82,6 +74,7 @@ ADD_HIERARCHY_SIGNALS=0
 /Sistema.bde=-1
 /..\..\..\..\..\simSistema.awc=-1
 /MuxMapper.bde=-1
+/Sistema_Top.bde=-1
 
 [Files.Data]
 .\src\BCD7Seg.vhd=VHDL Source Code
@@ -94,8 +87,21 @@ ADD_HIERARCHY_SIGNALS=0
 .\src\Sistema.bde=Block Diagram
 .\..\..\..\..\simSistema.awc=Accelerated Waveform Configuration
 .\src\MuxMapper.bde=Block Diagram
+.\src\Sistema_Top.bde=Block Diagram
+.\compile\Sistema.vhd=VHDL Source Code
+.\compile\Sistema_Top.vhd=VHDL Source Code
+
+[file_out:/MUX41.bde]
+/..\compile\MUX41.vhd=-1
+
+[file_out:/Codificador32.bde]
+/..\compile\Codificador32.vhd=-1
+
+
+[file_out:/MuxMapper.bde]
+/..\compile\MuxMapper.vhd=-1
 
 [file_out:/Sistema.bde]
 /..\compile\Sistema.vhd=-1
-[file_out:/Codificador32.bde]
-/..\compile\Codificador32.vhd=-1
+[file_out:/Sistema_Top.bde]
+/..\compile\Sistema_Top.vhd=-1

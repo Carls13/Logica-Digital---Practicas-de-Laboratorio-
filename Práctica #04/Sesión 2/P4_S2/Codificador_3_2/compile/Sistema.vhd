@@ -8,7 +8,7 @@
 -------------------------------------------------------------------------------
 --
 -- File        : c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #04\Sesión 2\P4_S2\Codificador_3_2\compile\Sistema.vhd
--- Generated   : Sun Mar 17 16:51:24 2019
+-- Generated   : Sat Mar 23 15:44:45 2019
 -- From        : c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #04\Sesión 2\P4_S2\Codificador_3_2\src\Sistema.bde
 -- By          : Bde2Vhdl ver. 2.6
 --
