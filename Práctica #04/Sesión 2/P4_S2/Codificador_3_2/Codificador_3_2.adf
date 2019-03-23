@@ -47,7 +47,7 @@ UCF=
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=sistema|Sistema|0
+HierarchyInformation=
 ShowHide=ShowTopLevel
 Selected=
 
@@ -88,8 +88,6 @@ ADD_HIERARCHY_SIGNALS=0
 .\..\..\..\..\simSistema.awc=Accelerated Waveform Configuration
 .\src\MuxMapper.bde=Block Diagram
 .\src\Sistema_Top.bde=Block Diagram
-.\compile\Sistema.vhd=VHDL Source Code
-.\compile\Sistema_Top.vhd=VHDL Source Code
 
 [file_out:/MUX41.bde]
 /..\compile\MUX41.vhd=-1
@@ -97,11 +95,12 @@ ADD_HIERARCHY_SIGNALS=0
 [file_out:/Codificador32.bde]
 /..\compile\Codificador32.vhd=-1
 
+[file_out:/Sistema.bde]
+/..\compile\Sistema.vhd=-1
 
 [file_out:/MuxMapper.bde]
 /..\compile\MuxMapper.vhd=-1
 
-[file_out:/Sistema.bde]
-/..\compile\Sistema.vhd=-1
 [file_out:/Sistema_Top.bde]
 /..\compile\Sistema_Top.vhd=-1
+
