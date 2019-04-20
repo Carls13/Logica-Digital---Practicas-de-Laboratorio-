@@ -1,0 +1,51 @@
+<config>
+    <version>
+        2.1
+    </version>
+    <comment>
+    </comment>
+    <databases>
+        <database id="">*virtual*</database>
+        <database id="78929cafd416b079bb5caf90de000000">untitled.asdb</database>
+    </databases>
+    <signallists>
+        <signallist id="0">
+        <signal>/ClkDiv/Clk</signal>
+        <signal>/ClkDiv/q</signal>
+        <signal>/ClkDiv/Reset</signal>
+        <signal>/ClkDiv/Clk3</signal>
+        </signallist>
+    </signallists>
+    <prefbases>
+        <prefbase id="0" >
+            <pref name="End Time" value="52010" />
+            <pref name="Start Time" value="0" />
+        </prefbase>
+    </prefbases>
+    <bookmarkbases>
+        <bookmarks id="0">
+            <bookmark value="45816"/>
+            <bookmark value="45999"/>
+            <bookmark value="46910"/>
+            <bookmark value="47092"/>
+            <bookmark value="49187"/>
+            <bookmark value="50007"/>
+            <bookmark value="50098"/>
+            <bookmark value="67905"/>
+        </bookmarks>
+    </bookmarkbases>
+    <cursorbases>
+        <cursors id="0">
+            <cursor value="42720" label="Cursor 1" locked="0" />
+        </cursors>
+    </cursorbases>
+    <measurementbases>
+    </measurementbases>
+    <commentbases>
+        <comments id="0">
+        </comments>
+    </commentbases>
+    <views>
+        <view signallist="0" propertybase="0" prefbase="0" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
+    </views>
+</config>

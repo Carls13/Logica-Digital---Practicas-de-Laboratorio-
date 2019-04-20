@@ -1,0 +1,30 @@
+V 000047 55 974           1555788879968 ClkDiv
+(_unit VHDL(clkdiv 0 29(clkdiv 0 37))
+	(_version vde)
+	(_time 1555788879996 2019.04.20 15:34:39)
+	(_source(\./../src/ClkDiv.vhd\))
+	(_parameters tan)
+	(_code bbb5eeefbaecbdadbeb4a2e0ecbdb8bde8bde9bdbf)
+	(_ent
+		(_time 1555788879950)
+	)
+	(_object
+		(_port(_int Clk -1 0 31(_ent(_in)(_event))))
+		(_port(_int Reset -1 0 32(_ent(_in))))
+		(_port(_int Clk3 -1 0 33(_ent(_out))))
+		(_type(_int ~STD_LOGIC_VECTOR{23~downto~0}~13 0 38(_array -1((_dto i 23 i 0)))))
+		(_sig(_int q 0 0 38(_arch(_uni))))
+		(_prcs
+			(line__41(_arch 0 0 41(_prcs(_simple)(_trgt(3))(_sens(0)(1))(_read(3)))))
+			(line__49(_arch 1 0 49(_assignment(_alias((Clk3)(q(23))))(_simpleassign BUF)(_trgt(2))(_sens(3(23))))))
+		)
+		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_part (3(23))
+	)
+	(_use(ieee(std_logic_1164))(std(standard))(ieee(STD_LOGIC_UNSIGNED)))
+	(_static
+		(33686018 33686018 33686018 33686018 33686018 33686018)
+	)
+	(_model . ClkDiv 2 -1)
+)

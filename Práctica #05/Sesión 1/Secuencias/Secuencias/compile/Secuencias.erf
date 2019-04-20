@@ -1,0 +1,7 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:\Users\Admin\Desktop\Logica\Logica-Digital---Practicas-de-Laboratorio-\Práctica #05\Secuencias\Secuencias\src\ClkDiv.vhd" 
+MESSAGE "Compile Entity "ClkDiv"" 
+MESSAGE "Compile Architecture "ClkDiv" of Entity "ClkDiv"" 
+MESSAGE "Top-level unit(s) detected:" 
+MESSAGE "Entity => ClkDiv" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]" 

@@ -1,0 +1,26 @@
+timestamp=1555789625665
+
+[~A]
+ModifyID=3
+Version=74
+
+[clkdiv]
+A/clkdiv=A/ClkDiv 21|./../src/ClkDiv.vhd|37|1*0
+BinI32/clkdiv=3*0
+I=0*525
+I/clkdiv=I/ClkDiv 0*1180
+M=11|0|vde|1555788879949|./../src/ClkDiv.vhd|0*185*0xcbf35cc77893faa64ab1ad7db0f1a634ca3215a9|0*446*0x23b75c12e3e89f2ef000564498faa8c2
+M/clkdiv=M/ClkDiv 21|0|vde|1555788879960|./../src/ClkDiv.vhd|0*806*0xd9298680e24be983016e6ed6f83a9f6829a8a848|0*1091*0x20116f55b147878295aeff36dce7fc50
+NSymbols/clkdiv=NSymbols/ClkDiv 40|0|2*0
+R=./../src/ClkDiv.vhd|29
+Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|e20056a516c0a91cfce7330de81245e70a3819edb0bdd9f605ab108d915c07e2
+Version/clkdiv=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|e20056a516c0a91cfce7330de81245e779cc1bcdb5191cb1529034081f112ef4
+
+[~MFT]
+0=7|0Secuencias.mgf|1180|0
+1=1|1Secuencias.mgf|0|0
+2=0|2Secuencias.mgf|0|0
+3=1|3Secuencias.mgf|0|0
+
+[~U]
+clkdiv=ClkDiv 11|0*0||0x3

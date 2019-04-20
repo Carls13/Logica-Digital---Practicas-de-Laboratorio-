@@ -1,0 +1,12 @@
+[Version]
+Version=10.5
+[Designs]
+secuencias=.\Secuencias\Secuencias.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+secuencias=1
