@@ -1,7 +1,7 @@
-timestamp=1555789625665
+timestamp=1555898654166
 
 [~A]
-ModifyID=3
+ModifyID=9
 Version=74
 
 [clkdiv]
@@ -16,11 +16,19 @@ R=./../src/ClkDiv.vhd|29
 Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|e20056a516c0a91cfce7330de81245e70a3819edb0bdd9f605ab108d915c07e2
 Version/clkdiv=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|e20056a516c0a91cfce7330de81245e779cc1bcdb5191cb1529034081f112ef4
 
+[secuencias]
+A/secuencias_arch=A/Secuencias_arch 23|.\..\src\Secuencias.asf|10000|
+I=0*2123
+M=11|0|vde|1555892828397|./../compile/Secuencias.vhd|0*1678*0xf879743df30c5614105b8d2a49765879986e39d1|0*2032*0x23b75c12e3e89f2ef000564498faa8c2
+R=./../compile/Secuencias.vhd|26
+Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|3ae236456cbf29d75cf774b3502fe7da2fd950169b384d506789efe0b6e22662c7a203465bcefcb0a108ed33f439dab7
+
 [~MFT]
-0=7|0Secuencias.mgf|1180|0
-1=1|1Secuencias.mgf|0|0
+0=4|0Secuencias.mgf|2123|0
+1=0|1Secuencias.mgf|0|0
 2=0|2Secuencias.mgf|0|0
-3=1|3Secuencias.mgf|0|0
+3=0|3Secuencias.mgf|0|0
 
 [~U]
 clkdiv=ClkDiv 11|0*0||0x3
+secuencias=Secuencias 11|0*1468|

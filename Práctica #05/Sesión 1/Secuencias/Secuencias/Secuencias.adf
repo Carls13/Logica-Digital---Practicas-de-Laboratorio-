@@ -56,19 +56,26 @@ WAVEFORMS=
 DEFWAVE=1
 ADD_HIERARCHY_SIGNALS=0
 
-[Files]
-/ClkDiv.vhd=-1
-/..\..\..\..\untitled.asdb=-1
-/..\..\..\..\untitled.awc=-1
-
-[Files.Data]
-.\src\ClkDiv.vhd=VHDL Source Code
-
-.\..\..\..\untitled.asdb=Accelerated Waveform File
-.\..\..\..\untitled.awc=Accelerated Waveform Configuration
 [SpecTracer]
 WindowVisible=0
+
 [HierarchyViewer]
 HierarchyInformation=clkdiv|ClkDiv|0 
 ShowHide=ShowTopLevel
 Selected=
+
+[Files]
+/ClkDiv.vhd=-1
+/..\..\..\..\untitled.asdb=-1
+/..\..\..\..\untitled.awc=-1
+/Secuencias.asf=-1
+
+[Files.Data]
+.\src\ClkDiv.vhd=VHDL Source Code
+.\..\..\..\untitled.asdb=Accelerated Waveform File
+.\..\..\..\untitled.awc=Accelerated Waveform Configuration
+.\src\Secuencias.asf=State Diagram
+
+[file_out:/Secuencias.asf]
+/..\compile\Secuencias.vhd=-1
+

@@ -1,7 +1,23 @@
 WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
-MESSAGE "File: C:\Users\Admin\Desktop\Logica\Logica-Digital---Practicas-de-Laboratorio-\Práctica #05\Secuencias\Secuencias\src\ClkDiv.vhd" 
-MESSAGE "Compile Entity "ClkDiv"" 
-MESSAGE "Compile Architecture "ClkDiv" of Entity "ClkDiv"" 
-MESSAGE "Top-level unit(s) detected:" 
-MESSAGE "Entity => ClkDiv" 
-SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]" 
+MESSAGE "File: .\Secuencias.vhd" 
+ERROR COMP96_0010: "Invalid literal." "C:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\compile\Secuencias.vhd" 69 6
+ERROR COMP96_0010: "Invalid literal." "C:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\compile\Secuencias.vhd" 78 6
+ERROR COMP96_0010: "Invalid literal." "C:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\compile\Secuencias.vhd" 110 6
+ERROR COMP96_0010: "Invalid literal." "C:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\compile\Secuencias.vhd" 119 6
+ERROR COMP96_0010: "Invalid literal." "C:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\compile\Secuencias.vhd" 127 6
+ERROR COMP96_0010: "Invalid literal." "C:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\compile\Secuencias.vhd" 161 6
+MESSAGE "Compile Entity "Secuencias"" 
+MESSAGE "Compile Architecture "Secuencias_arch" of Entity "Secuencias"" 
+ERROR COMP96_0015: "']' expected." "C:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\compile\Secuencias.vhd" 69 6
+ERROR COMP96_0015: "'<=' expected." "C:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\compile\Secuencias.vhd" 69 5
+ERROR COMP96_0015: "';' expected." "C:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\compile\Secuencias.vhd" 78 4
+ERROR COMP96_0015: "';' expected." "C:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\compile\Secuencias.vhd" 91 4
+ERROR COMP96_0015: "';' expected." "C:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\compile\Secuencias.vhd" 101 4
+ERROR COMP96_0015: "']' expected." "C:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\compile\Secuencias.vhd" 110 6
+ERROR COMP96_0015: "'<=' expected." "C:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\compile\Secuencias.vhd" 110 5
+ERROR COMP96_0029: "Expression expected." "C:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\compile\Secuencias.vhd" 119 6
+ERROR COMP96_0029: "Expression expected." "C:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\compile\Secuencias.vhd" 127 6
+ERROR COMP96_0015: "';' expected." "C:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\compile\Secuencias.vhd" 141 4
+ERROR COMP96_0015: "';' expected." "C:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\compile\Secuencias.vhd" 151 4
+ERROR COMP96_0015: "';' expected." "C:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\compile\Secuencias.vhd" 161 4
+FAILURE "Compile failure 18 Errors 0 Warnings  Analysis time :  31.0 [ms]" 

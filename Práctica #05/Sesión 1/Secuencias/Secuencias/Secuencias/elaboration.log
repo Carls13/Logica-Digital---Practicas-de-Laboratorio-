@@ -1,4 +1,4 @@
-Active-HDL 10.5.217.6767 2019-04-20 15:57:18
+Active-HDL 10.5.217.6767 2019-04-21 18:53:36
 
 Elaboration top modules:
 Architecture                  ClkDiv(ClkDiv)
@@ -7,7 +7,7 @@ Architecture                  ClkDiv(ClkDiv)
 --------------------------------------------------------------------------------------------
 Entity   | Architecture | Library    | Info | Compiler Version        | Compilation Options
 --------------------------------------------------------------------------------------------
-ClkDiv   | ClkDiv       | Secuencias |      | 10.5.217.6767 (Windows) | -O3
+ClkDiv   | ClkDiv       | secuencias |      | 10.5.217.6767 (Windows) | -O3
 --------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------------------
@@ -24,12 +24,6 @@ STD_LOGIC_UNSIGNED      | ieee       |      |                         | <unavail
 Library                 | Comment
 --------------------------------------------------------------------------------------------
 ieee                    | Standard IEEE packages library
-Secuencias              | None
+secuencias              | None
 std                     | Standard VHDL library
 --------------------------------------------------------------------------------------------
-
-
-Simulation Options: asim +access +r -advdataflow ClkDiv
-
-
-The performance of simulation is reduced. Version Student Edition
