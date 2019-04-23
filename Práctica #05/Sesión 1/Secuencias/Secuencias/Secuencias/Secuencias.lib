@@ -1,7 +1,7 @@
-timestamp=1555898654166
+timestamp=1555993726398
 
 [~A]
-ModifyID=9
+ModifyID=14
 Version=74
 
 [clkdiv]
@@ -17,17 +17,21 @@ Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|e20056a516c0a91cf
 Version/clkdiv=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|e20056a516c0a91cfce7330de81245e779cc1bcdb5191cb1529034081f112ef4
 
 [secuencias]
-A/secuencias_arch=A/Secuencias_arch 23|.\..\src\Secuencias.asf|10000|
+A/secuencias_arch=A/Secuencias_arch 23|.\..\src\Secuencias.asf|10000|1*1022
+BinI32/secuencias_arch=3*321
 I=0*2123
+I/secuencias_arch=I/Secuencias_arch 0*4781
 M=11|0|vde|1555892828397|./../compile/Secuencias.vhd|0*1678*0xf879743df30c5614105b8d2a49765879986e39d1|0*2032*0x23b75c12e3e89f2ef000564498faa8c2
+M/secuencias_arch=M/Secuencias_arch 21|0|vde|1555993726308|./../compile/Secuencias.vhd|0*2406*0x6c5f1cfe3a553542c296ff04202c9c8fffdce09b|0*4671*0x20116f55b147878295aeff36dce7fc50
 R=./../compile/Secuencias.vhd|26
 Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|3ae236456cbf29d75cf774b3502fe7da2fd950169b384d506789efe0b6e22662c7a203465bcefcb0a108ed33f439dab7
+Version/secuencias_arch=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|5834fe71dda6710d017c5dd7729d82bf68cb2f66cf0a32f4066f29bf255bacf1da93baf12652359b623252ef7ffd5eb6
 
 [~MFT]
-0=4|0Secuencias.mgf|2123|0
-1=0|1Secuencias.mgf|0|0
+0=3|0Secuencias.mgf|4781|0
+1=1|1Secuencias.mgf|1022|0
 2=0|2Secuencias.mgf|0|0
-3=0|3Secuencias.mgf|0|0
+3=1|3Secuencias.mgf|321|0
 
 [~U]
 clkdiv=ClkDiv 11|0*0||0x3

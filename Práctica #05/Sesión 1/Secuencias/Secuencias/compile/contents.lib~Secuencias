@@ -1,5 +1,5 @@
-9
+14
 ~E 1 "./../src/ClkDiv.vhd" 29 ClkDiv
 ~A 1 "./../src/ClkDiv.vhd" 37 ClkDiv
 ~E 1 "./../compile/Secuencias.vhd" 26 Secuencias
-~A 0 "" 0 Secuencias_arch
+~A 1 "./../compile/Secuencias.vhd" 35 Secuencias_arch

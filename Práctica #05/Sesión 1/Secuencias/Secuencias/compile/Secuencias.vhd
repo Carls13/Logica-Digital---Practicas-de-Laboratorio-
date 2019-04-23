@@ -7,9 +7,9 @@
 --
 -------------------------------------------------------------------------------
 --
--- File        : C:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\compile\Secuencias.vhd
--- Generated   : Sun Apr 21 22:04:13 2019
--- From        : C:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\src\Secuencias.asf
+-- File        : c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\compile\Secuencias.vhd
+-- Generated   : Tue Apr 23 00:28:45 2019
+-- From        : c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\src\Secuencias.asf
 -- By          : FSM2VHDL ver. 5.0.7.2
 --
 -------------------------------------------------------------------------------
@@ -66,20 +66,21 @@ begin
 	-- ...
 	case Sreg0 is
 		when S1 =>
-			N[2:0]<='000'
-			T<='0'
-			if X='1' then
+			N<="000";
+			T<='0';
+			if X='0' then
+				NextState_Sreg0 <= S2;
+			elsif X='1' then
 				NextState_Sreg0 <= S6;
 			else
-				NextState_Sreg0 <= S2;
+				NextState_Sreg0 <= S1;
 			end if;
 		when S2 =>
-			N(2)<='1'
-			N[1:0]<='00'
-			T<='0'
-			if P='0' then
+			N<="100";
+			T<='0';
+			if X='0' AND P='0' then
 				NextState_Sreg0 <= S3;
-			elsif P='1' then
+			elsif X='0' AND P='1' then
 				NextState_Sreg0 <= S4;
 			elsif X='1' then
 				NextState_Sreg0 <= S6;
@@ -87,49 +88,51 @@ begin
 				NextState_Sreg0 <= S1;
 			end if;
 		when S3 =>
-			N(2)<='0'
-			N(1)<='1'
-			N(0)<='0'
-			T<='0'
-			if X='1' then
+			N<="010";
+			T<='0';
+			if X='0' then
+				NextState_Sreg0 <= S5;
+			elsif X='1' then
 				NextState_Sreg0 <= S6;
 			else
-				NextState_Sreg0 <= S5;
+				NextState_Sreg0 <= S1;
 			end if;
 		when S4 =>
-			N(2)<='0'
-			N(1)<='1'
-			N(0)<='0'
-			T<='1'
-			if X='1' then
+			N<="010";
+			T<='1';
+			if X='0' then
+				NextState_Sreg0 <= S5;
+			elsif X='1' then
 				NextState_Sreg0 <= S6;
 			else
-				NextState_Sreg0 <= S5;
+				NextState_Sreg0 <= S1;
 			end if;
 		when S5 =>
-			N[2:1]<='00'
-			N(0)<='1'
-			T<='0'
-			if X='1' then
+			N<="001";
+			T<='0';
+			if X='0' then
+				NextState_Sreg0 <= S1;
+			elsif X='1' then
 				NextState_Sreg0 <= S6;
 			else
 				NextState_Sreg0 <= S1;
 			end if;
 		when S6 =>
-			N(2:0)<='1'
-			T<='0'
-			if X='0' then
+			N<="111";
+			T<='0';
+			if X='1' then
+				NextState_Sreg0 <= S7;
+			elsif X='0' then
 				NextState_Sreg0 <= S1;
 			else
-				NextState_Sreg0 <= S7;
+				NextState_Sreg0 <= S1;
 			end if;
 		when S7 =>
-			N(2:1)<='11'
-			N(0)<='0'
-			T<='0'
-			if P='0' then
+			N<="110";
+			T<='0';
+			if X='1' AND P='0' then
 				NextState_Sreg0 <= S8;
-			elsif P='1' then
+			elsif X='1' AND P='1' then
 				NextState_Sreg0 <= S9;
 			elsif X='0' then
 				NextState_Sreg0 <= S1;
@@ -137,33 +140,32 @@ begin
 				NextState_Sreg0 <= S1;
 			end if;
 		when S8 =>
-			N(2)<='1'
-			N(1)<='0'
-			N(0)<='1'
-			T<='0'
+			N<="101";
+			T<='0';
 			if X='0' then
 				NextState_Sreg0 <= S1;
 			else
 				NextState_Sreg0 <= S10;
 			end if;
 		when S9 =>
-			N(2)<='1'
-			N(1)<='0'
-			N(0)<='1'
-			T<='1'
-			if X='0' then
+			N<="101";
+			T<='1';
+			if X='1' then
+				NextState_Sreg0 <= S10;
+			elsif X='0' then
 				NextState_Sreg0 <= S1;
 			else
-				NextState_Sreg0 <= S10;
+				NextState_Sreg0 <= S1;
 			end if;
 		when S10 =>
-			N(2)<='0'
-			N(1:0)<='11'
-			T<='0'
-			if X='0' then
+			N<="011";
+			T<='0';
+			if X='1' then
+				NextState_Sreg0 <= S6;
+			elsif X='0' then
 				NextState_Sreg0 <= S1;
 			else
-				NextState_Sreg0 <= S6;
+				NextState_Sreg0 <= S1;
 			end if;
 --vhdl_cover_off
 		when others =>
