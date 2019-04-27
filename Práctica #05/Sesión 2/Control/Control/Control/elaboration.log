@@ -1,0 +1,33 @@
+Active-HDL 10.5.217.6767 2019-04-26 22:13:25
+
+Elaboration top modules:
+Architecture                  ff_jk(FF_JK)
+
+
+-----------------------------------------------------------------------------------------
+Entity   | Architecture | Library | Info | Compiler Version        | Compilation Options
+-----------------------------------------------------------------------------------------
+FF_JK    | ff_jk        | control |      | 10.5.217.6767 (Windows) | -O3
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------
+VHDL Package            | Library | Info | Compiler Version        | Compilation Options
+-----------------------------------------------------------------------------------------
+standard                | std     |      |                         | <unavailable>
+TEXTIO                  | std     |      |                         | <unavailable>
+std_logic_1164          | ieee    |      |                         | <unavailable>
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------
+Library                 | Comment
+-----------------------------------------------------------------------------------------
+control                 | None
+ieee                    | Standard IEEE packages library
+std                     | Standard VHDL library
+-----------------------------------------------------------------------------------------
+
+
+Simulation Options: asim +access +r -advdataflow FF_JK
+
+
+The performance of simulation is reduced. Version Student Edition

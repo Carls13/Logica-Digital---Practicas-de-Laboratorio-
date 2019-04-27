@@ -1,0 +1,12 @@
+[Version]
+Version=10.5
+[Designs]
+control=.\Control\Control.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+control=1

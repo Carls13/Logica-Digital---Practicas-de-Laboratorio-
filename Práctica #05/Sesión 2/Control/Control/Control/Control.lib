@@ -1,0 +1,53 @@
+timestamp=1556330869409
+
+[~A]
+ModifyID=9
+Version=74
+
+[ff_d]
+A/ff_d=21|./../src/FF_D.vhd|41|1*0
+BinI32/ff_d=3*0
+I=0*1627
+I/ff_d=I/FF_D 0*1825
+M=11|0|vde|1556325757778|./../src/FF_D.vhd|0*0*0x19b2a317a396e9294490b8cba5e5c1f3aeaa0b77|0*256*0x23b75c12e3e89f2ef000564498faa8c2
+M/ff_d=M/FF_D 21|0|vde|1556328635638|./../src/FF_D.vhd|0*331*0x3e7d24bb9a5b1cc8d4c2aaa662bc2343fcb96e8b|0*620*0x20116f55b147878295aeff36dce7fc50
+NSymbols/ff_d=NSymbols/FF_D 40|0|2*0
+R=./../src/FF_D.vhd|28
+Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|33e157abed3bd27cd6376c63c6370f529fcb20185dc3c544feb837596ed8941c
+Version/ff_d=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|33e157abed3bd27cd6376c63c6370f5258700a974fa717a0fbdcf54601822a12
+
+[ff_jk]
+A/ff_jk=21|./../src/FF_JK.vhd|39|1*1006
+BinI32/ff_jk=3*527
+I=0*2220
+I/ff_jk=I/FF_JK 0*2419
+M=11|0|vde|1556330459435|./../src/FF_JK.vhd|0*703*0x13311d71c9d5eb0ba4b8d4a8f26916c918010ae2|0*982*0x23b75c12e3e89f2ef000564498faa8c2
+M/ff_jk=M/FF_JK 21|0|vde|1556330575477|./../src/FF_JK.vhd|0*1059*0x1fdfbb740ce3e0adc37a9580cdff8c0a50e90cc1|0*1354*0x20116f55b147878295aeff36dce7fc50
+NSymbols/ff_jk=NSymbols/FF_JK 40|0|2*2215
+R=./../src/FF_JK.vhd|28
+Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|b8d0ed0c8cfb32ab13b94a491ac21587a285e7156416a329f9480ee5d3b8be51
+Version/ff_jk=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|b8d0ed0c8cfb32ab13b94a491ac215878baae6e180c2d15fc3b19094d3117311
+
+[~MFT]
+0=0|0Control.mgf|2419|0
+1=0|1Control.mgf|1006|0
+2=0|2Control.mgf|2215|0
+3=0|3Control.mgf|527|0
+
+[~U]
+ff_d=FF_D 11|0*1440||0x3
+ff_jk=FF_JK 11|0*2028||0x3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
