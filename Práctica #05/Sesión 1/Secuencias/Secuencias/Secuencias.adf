@@ -69,13 +69,18 @@ Selected=
 /..\..\..\..\untitled.asdb=-1
 /..\..\..\..\untitled.awc=-1
 /Secuencias.asf=-1
+/Secuencias_Top.bde=-1
 
 [Files.Data]
 .\src\ClkDiv.vhd=VHDL Source Code
 .\..\..\..\untitled.asdb=Accelerated Waveform File
 .\..\..\..\untitled.awc=Accelerated Waveform Configuration
 .\src\Secuencias.asf=State Diagram
+.\src\Secuencias_Top.bde=Block Diagram
 
 [file_out:/Secuencias.asf]
 /..\compile\Secuencias.vhd=-1
+
+[file_out:/Secuencias_Top.bde]
+/..\compile\Secuencias_Top.vhd=-1
 

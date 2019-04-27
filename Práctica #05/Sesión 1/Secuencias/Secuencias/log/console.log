@@ -1,36 +1,5 @@
 # ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.8 [s].
-acom -O3 -e 100 -work Secuencias -2002  $dsn/src/Secuencias.asf
-# Loading State Diagram data...
-# Generating c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\compile\Secuencias.vhd from c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\src\Secuencias.asf
-# Synthesis attributes will be generated for Synopsys FPGA Express
-# Warning: FSM2HDL_4028 Secuencias.asf : Attribute ENUM_ENCODING is not supported for Symbolic encoding.
-# Warning: FSM2HDL_4013 Secuencias.asf : Undefined value of "N" in the reset state.
-# Warning: FSM2HDL_4013 Secuencias.asf : Undefined value of "T" in the reset state.
-# Generating interface file...
-# HDL code generation completed. 0 error(s), 3 warning(s)
-# Double-click on error/warning line to see the source of error/warning.
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: .\Secuencias.vhd
-# Error: COMP96_0010: Secuencias.asf(Secuencias.vhd) : (69, 6): Invalid literal.
-# Error: COMP96_0010: Secuencias.asf(Secuencias.vhd) : (80, 6): Invalid literal.
-# Error: COMP96_0010: Secuencias.asf(Secuencias.vhd) : (116, 6): Invalid literal.
-# Error: COMP96_0010: Secuencias.asf(Secuencias.vhd) : (127, 6): Invalid literal.
-# Error: COMP96_0010: Secuencias.asf(Secuencias.vhd) : (137, 6): Invalid literal.
-# Error: COMP96_0010: Secuencias.asf(Secuencias.vhd) : (173, 6): Invalid literal.
-# Compile Entity "Secuencias"
-# Compile Architecture "Secuencias_arch" of Entity "Secuencias"
-# Error: COMP96_0029: Secuencias.asf(Secuencias.vhd) : (69, 6): Expression expected.
-# Error: COMP96_0015: Secuencias.asf(Secuencias.vhd) : (80, 4): ';' expected.
-# Error: COMP96_0015: Secuencias.asf(Secuencias.vhd) : (93, 4): ';' expected.
-# Error: COMP96_0015: Secuencias.asf(Secuencias.vhd) : (105, 4): ';' expected.
-# Error: COMP96_0029: Secuencias.asf(Secuencias.vhd) : (116, 6): Expression expected.
-# Error: COMP96_0029: Secuencias.asf(Secuencias.vhd) : (127, 6): Expression expected.
-# Error: COMP96_0029: Secuencias.asf(Secuencias.vhd) : (137, 6): Expression expected.
-# Error: COMP96_0015: Secuencias.asf(Secuencias.vhd) : (151, 4): ';' expected.
-# Error: COMP96_0015: Secuencias.asf(Secuencias.vhd) : (161, 4): ';' expected.
-# Error: COMP96_0015: Secuencias.asf(Secuencias.vhd) : (173, 4): ';' expected.
-# Compile failure 16 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# ELBREAD: Elaboration time 0.5 [s].
 acom -O3 -e 100 -work Secuencias -2002  $dsn/src/Secuencias.asf
 # Loading State Diagram data...
 # Generating c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\compile\Secuencias.vhd from c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\src\Secuencias.asf
@@ -45,54 +14,16 @@ acom -O3 -e 100 -work Secuencias -2002  $dsn/src/Secuencias.asf
 # File: .\Secuencias.vhd
 # Compile Entity "Secuencias"
 # Compile Architecture "Secuencias_arch" of Entity "Secuencias"
-# Error: COMP96_0029: Secuencias.asf(Secuencias.vhd) : (69, 7): Expression expected.
-# Error: COMP96_0029: Secuencias.asf(Secuencias.vhd) : (79, 7): Expression expected.
-# Error: COMP96_0029: Secuencias.asf(Secuencias.vhd) : (91, 7): Expression expected.
-# Error: COMP96_0029: Secuencias.asf(Secuencias.vhd) : (101, 7): Expression expected.
-# Error: COMP96_0029: Secuencias.asf(Secuencias.vhd) : (111, 7): Expression expected.
-# Error: COMP96_0029: Secuencias.asf(Secuencias.vhd) : (121, 7): Expression expected.
-# Error: COMP96_0029: Secuencias.asf(Secuencias.vhd) : (131, 7): Expression expected.
-# Error: COMP96_0029: Secuencias.asf(Secuencias.vhd) : (143, 7): Expression expected.
-# Error: COMP96_0029: Secuencias.asf(Secuencias.vhd) : (151, 7): Expression expected.
-# Error: COMP96_0029: Secuencias.asf(Secuencias.vhd) : (161, 7): Expression expected.
-# Compile failure 10 Errors 0 Warnings  Analysis time :  79.0 [ms]
-acom -O3 -e 100 -work Secuencias -2002  $dsn/src/Secuencias.asf
-# Loading State Diagram data...
-# Generating c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\compile\Secuencias.vhd from c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\src\Secuencias.asf
-# Synthesis attributes will be generated for Synopsys FPGA Express
-# Warning: FSM2HDL_4028 Secuencias.asf : Attribute ENUM_ENCODING is not supported for Symbolic encoding.
-# Warning: FSM2HDL_4013 Secuencias.asf : Undefined value of "N" in the reset state.
-# Warning: FSM2HDL_4013 Secuencias.asf : Undefined value of "T" in the reset state.
-# Generating interface file...
-# HDL code generation completed. 0 error(s), 3 warning(s)
-# Double-click on error/warning line to see the source of error/warning.
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work Secuencias -2002  $dsn/src/Secuencias_Top.bde
+# DRC: Checking file 'c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\src\Secuencias_Top.bde'.
+# DRC: Secuencias_Top.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 3 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\compile\Secuencias_Top.vhd from c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\src\Secuencias_Top.bde ...
+# Generation successful
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: .\Secuencias.vhd
-# Compile Entity "Secuencias"
-# Compile Architecture "Secuencias_arch" of Entity "Secuencias"
-# Error: COMP96_0015: Secuencias.asf(Secuencias.vhd) : (70, 4): ';' expected.
-# Error: COMP96_0015: Secuencias.asf(Secuencias.vhd) : (80, 4): ';' expected.
-# Error: COMP96_0015: Secuencias.asf(Secuencias.vhd) : (92, 4): ';' expected.
-# Error: COMP96_0015: Secuencias.asf(Secuencias.vhd) : (102, 4): ';' expected.
-# Error: COMP96_0015: Secuencias.asf(Secuencias.vhd) : (112, 4): ';' expected.
-# Error: COMP96_0015: Secuencias.asf(Secuencias.vhd) : (122, 4): ';' expected.
-# Error: COMP96_0015: Secuencias.asf(Secuencias.vhd) : (132, 4): ';' expected.
-# Error: COMP96_0015: Secuencias.asf(Secuencias.vhd) : (144, 4): ';' expected.
-# Error: COMP96_0015: Secuencias.asf(Secuencias.vhd) : (152, 4): ';' expected.
-# Error: COMP96_0015: Secuencias.asf(Secuencias.vhd) : (162, 4): ';' expected.
-# Compile failure 10 Errors 0 Warnings  Analysis time :  78.0 [ms]
-acom -O3 -e 100 -work Secuencias -2002  $dsn/src/Secuencias.asf
-# Loading State Diagram data...
-# Generating c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\compile\Secuencias.vhd from c:\Users\gianfranco\Downloads\Logica-Digital---Practicas-de-Laboratorio--master\Práctica #05\Sesión 1\Secuencias\Secuencias\src\Secuencias.asf
-# Synthesis attributes will be generated for Synopsys FPGA Express
-# Warning: FSM2HDL_4028 Secuencias.asf : Attribute ENUM_ENCODING is not supported for Symbolic encoding.
-# Warning: FSM2HDL_4013 Secuencias.asf : Undefined value of "N" in the reset state.
-# Warning: FSM2HDL_4013 Secuencias.asf : Undefined value of "T" in the reset state.
-# Generating interface file...
-# HDL code generation completed. 0 error(s), 3 warning(s)
-# Double-click on error/warning line to see the source of error/warning.
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: .\Secuencias.vhd
-# Compile Entity "Secuencias"
-# Compile Architecture "Secuencias_arch" of Entity "Secuencias"
-# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+# File: .\..\compile\Secuencias_Top.vhd
+# Compile Entity "Secuencias_Top"
+# Compile Architecture "Secuencias_Top" of Entity "Secuencias_Top"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]

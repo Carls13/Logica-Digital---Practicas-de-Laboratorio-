@@ -1,38 +1,50 @@
-timestamp=1555993726398
+timestamp=1556401701750
 
 [~A]
-ModifyID=14
+ModifyID=21
 Version=74
 
 [clkdiv]
 A/clkdiv=A/ClkDiv 21|./../src/ClkDiv.vhd|37|1*0
 BinI32/clkdiv=3*0
-I=0*525
-I/clkdiv=I/ClkDiv 0*1180
-M=11|0|vde|1555788879949|./../src/ClkDiv.vhd|0*185*0xcbf35cc77893faa64ab1ad7db0f1a634ca3215a9|0*446*0x23b75c12e3e89f2ef000564498faa8c2
-M/clkdiv=M/ClkDiv 21|0|vde|1555788879960|./../src/ClkDiv.vhd|0*806*0xd9298680e24be983016e6ed6f83a9f6829a8a848|0*1091*0x20116f55b147878295aeff36dce7fc50
+I=0*3330
+I/clkdiv=I/ClkDiv 0*3611
+M=11|0|vde|1555788879949|./../src/ClkDiv.vhd|0*0*0xcbf35cc77893faa64ab1ad7db0f1a634ca3215a9|0*261*0x23b75c12e3e89f2ef000564498faa8c2
+M/clkdiv=M/ClkDiv 21|0|vde|1555788879960|./../src/ClkDiv.vhd|0*340*0xd9298680e24be983016e6ed6f83a9f6829a8a848|0*625*0x20116f55b147878295aeff36dce7fc50
 NSymbols/clkdiv=NSymbols/ClkDiv 40|0|2*0
 R=./../src/ClkDiv.vhd|29
 Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|e20056a516c0a91cfce7330de81245e70a3819edb0bdd9f605ab108d915c07e2
 Version/clkdiv=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|e20056a516c0a91cfce7330de81245e779cc1bcdb5191cb1529034081f112ef4
 
 [secuencias]
-A/secuencias_arch=A/Secuencias_arch 23|.\..\src\Secuencias.asf|10000|1*1022
+A/secuencias_arch=A/Secuencias_arch 23|.\..\src\Secuencias.asf|10000|1*2319
 BinI32/secuencias_arch=3*321
-I=0*2123
-I/secuencias_arch=I/Secuencias_arch 0*4781
-M=11|0|vde|1555892828397|./../compile/Secuencias.vhd|0*1678*0xf879743df30c5614105b8d2a49765879986e39d1|0*2032*0x23b75c12e3e89f2ef000564498faa8c2
-M/secuencias_arch=M/Secuencias_arch 21|0|vde|1555993726308|./../compile/Secuencias.vhd|0*2406*0x6c5f1cfe3a553542c296ff04202c9c8fffdce09b|0*4671*0x20116f55b147878295aeff36dce7fc50
+I=0*4109
+I/secuencias_arch=I/Secuencias_arch 0*4392
+M=11|0|vde|1555892828397|./../compile/Secuencias.vhd|0*714*0xf879743df30c5614105b8d2a49765879986e39d1|0*1068*0x23b75c12e3e89f2ef000564498faa8c2
+M/secuencias_arch=M/Secuencias_arch 21|0|vde|1556400974645|./../compile/Secuencias.vhd|0*1159*0x8c1dc8e260ffce1600acd5ba6f2f68eaadf08e2d|0*3035*0x20116f55b147878295aeff36dce7fc50
+NSymbols/secuencias=NSymbols/Secuencias 40|0|2*1693
 R=./../compile/Secuencias.vhd|26
 Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|3ae236456cbf29d75cf774b3502fe7da2fd950169b384d506789efe0b6e22662c7a203465bcefcb0a108ed33f439dab7
-Version/secuencias_arch=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|5834fe71dda6710d017c5dd7729d82bf68cb2f66cf0a32f4066f29bf255bacf1da93baf12652359b623252ef7ffd5eb6
+Version/secuencias_arch=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|5834fe71dda6710d017c5dd7729d82bf68cb2f66cf0a32f4066f29bf255bacf1a699e23ed3b27f236e78a037fa0e4754
+
+[secuencias_top]
+A/secuencias_top=A/Secuencias_Top 24|.\..\src\Secuencias_Top.bde|10000|1*3610
+I=0*5333
+I/secuencias_top=I/Secuencias_Top 0*6130
+M=11|0|vde|1556401701437|./../compile/Secuencias_Top.vhd|0*4912*0x30fefd67aa055ddfc2687697d77665fe580dc7a2|0*5234*0x23b75c12e3e89f2ef000564498faa8c2
+M/secuencias_top=M/Secuencias_Top 21|0|vde|1556401701691|./../compile/Secuencias_Top.vhd|0*5541*0x3518eb6492ee40ff9b34c0f39cc00cec494c06eb|0*6013*0x20116f55b147878295aeff36dce7fc50
+R=./../compile/Secuencias_Top.vhd|24
+Version=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|b9ed671e58e3019396b421870276f3b634a797eee42fb36b90ff6b7e222e7dcddc32f152963ec594a2acfd1559760298
+Version/secuencias_top=10.5.217.6767 (Windows)|00000003789cd3f5370600015b00b0|b9ed671e58e3019396b421870276f3b634a797eee42fb36b90ff6b7e222e7dcddc32f152963ec594a2acfd1559760298
 
 [~MFT]
-0=3|0Secuencias.mgf|4781|0
-1=1|1Secuencias.mgf|1022|0
-2=0|2Secuencias.mgf|0|0
-3=1|3Secuencias.mgf|321|0
+0=7|0Secuencias.mgf|6130|0
+1=1|1Secuencias.mgf|3610|0
+2=0|2Secuencias.mgf|1693|0
+3=0|3Secuencias.mgf|321|0
 
 [~U]
-clkdiv=ClkDiv 11|0*0||0x3
-secuencias=Secuencias 11|0*1468|
+clkdiv=ClkDiv 11|0*3145||0x3
+secuencias=Secuencias 11|0*3899||0x3
+secuencias_top=Secuencias_Top 11|0*4691|
