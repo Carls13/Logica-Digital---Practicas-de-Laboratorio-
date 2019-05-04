@@ -1,5 +1,13 @@
-7
+32
+~E 1 "./../src/ClkDiv.vhd" 29 ClkDiv
+~A 1 "./../src/ClkDiv.vhd" 37 ClkDiv
 ~E 1 "./../src/FF_D.vhd" 28 FF_D
-~A 1 "./../src/FF_D.vhd" 41 FF_D
+~A 1 "./../src/FF_D.vhd" 41 ff_d
 ~E 1 "./../src/FF_JK.vhd" 28 FF_JK
-~A 1 "./../src/FF_JK.vhd" 39 FF_JK
+~A 1 "./../src/FF_JK.vhd" 39 ff_jk
+~E 1 "./../src/MUX21.vhd" 28 MUX21
+~A 1 "./../src/MUX21.vhd" 38 MUX21
+~E 1 "./../compile/MUX41.vhd" 24 MUX41
+~A 1 "./../compile/MUX41.vhd" 33 MUX41
+~E 1 "./../compile/UC.vhd" 24 UC
+~A 1 "./../compile/UC.vhd" 41 UC

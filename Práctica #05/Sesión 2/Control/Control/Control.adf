@@ -28,6 +28,7 @@ ON_SERVERFARM_IMPL=0
 ON_SERVERFARM_SIM=0
 DVM_DISPLAY=NO
 FUNC_LIB=Control
+fileopenfolder=C:\Users\carlos\Desktop\Logica\Logica-Digital---Practicas-de-Laboratorio-\Práctica #05\Sesión 1\Secuencias\Secuencias\src
 
 [LocalVerilogSets]
 EnableSLP=1
@@ -62,12 +63,32 @@ ADD_HIERARCHY_SIGNALS=0
 /FF_JK.vhd=-1
 /..\..\..\..\Simulacion2.asdb=-1
 /..\..\..\..\Simulacion2.awc=-1
+/UC.bde=-1
+/MUX41.bde=-1
+/MUX21.vhd=-1
+/ClkDiv.vhd=-1
 
 [Files.Data]
 .\src\FF_D.vhd=VHDL Source Code
 .\..\Simulacion 1.asdb=Accelerated Waveform File
 .\..\Simulacion 1.awc=Accelerated Waveform Configuration
 .\src\FF_JK.vhd=VHDL Source Code
-
 .\..\..\..\Simulacion2.asdb=Accelerated Waveform File
 .\..\..\..\Simulacion2.awc=Accelerated Waveform Configuration
+.\src\UC.bde=Block Diagram
+.\src\MUX41.bde=Block Diagram
+.\src\MUX21.vhd=VHDL Source Code
+.\src\ClkDiv.vhd=VHDL Source Code
+
+[file_out:/UC.bde]
+/..\compile\UC.vhd=-1
+
+[file_out:/MUX41.bde]
+/..\compile\MUX41.vhd=-1
+
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=ff_jk|ff_jk|0 
+ShowHide=ShowTopLevel
+Selected=

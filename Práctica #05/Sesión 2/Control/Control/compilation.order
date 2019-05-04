@@ -1,2 +1,6 @@
 .\src\FF_D.vhd
 .\src\FF_JK.vhd
+.\src\UC.bde
+.\src\MUX41.bde
+.\src\MUX21.vhd
+.\src\ClkDiv.vhd

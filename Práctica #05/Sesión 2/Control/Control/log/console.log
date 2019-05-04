@@ -1,103 +1,58 @@
 # ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 2.0 [s].
-acom -O3 -e 100 -work Control -2002  $dsn/src/FF_D.vhd
+# ELBREAD: Elaboration time 0.5 [s].
+acom -O3 -e 100 -work Control -2002  $dsn/src/MUX41.bde $dsn/src/MUX21.vhd $dsn/src/ClkDiv.vhd
+# DRC: Checking file 'C:\Users\carlos\Desktop\Logica\Logica-Digital---Practicas-de-Laboratorio-\Práctica #05\Sesión 2\Control\Control\src\MUX41.bde'.
+# DRC: MUX41.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 2 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\Users\carlos\Desktop\Logica\Logica-Digital---Practicas-de-Laboratorio-\Práctica #05\Sesión 2\Control\Control\compile\MUX41.vhd from C:\Users\carlos\Desktop\Logica\Logica-Digital---Practicas-de-Laboratorio-\Práctica #05\Sesión 2\Control\Control\src\MUX41.bde ...
+# Generation successful
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:\Users\carlos\Desktop\Logica\Logica-Digital---Practicas-de-Laboratorio-\Práctica #05\Sesión 2\Control\Control\src\FF_D.vhd
-# Compile Entity "FF_D"
-# Compile Architecture "FF_D" of Entity "FF_D"
+# Error: VLM_0034: Library "control" cannot be modified because it is being used by another process.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  5.0 [s]
+acom -O3 -e 100 -work Control -2002  $dsn/src/ClkDiv.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\carlos\Desktop\Logica\Logica-Digital---Practicas-de-Laboratorio-\Práctica #05\Sesión 2\Control\Control\src\ClkDiv.vhd
+# Compile Entity "ClkDiv"
+# Compile Architecture "ClkDiv" of Entity "ClkDiv"
 # Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
-asim +access +r -advdataflow FF_D
-# Warning: Verilog Optimization cannot be used when -advdataflow is in effect. Verilog Optimization disabled.
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 1.5 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# ELAB2: Elaboration final pass complete - time: 2.2 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 7068 kB (elbread=1280 elab2=5650 kernel=137 sdf=0)
-# KERNEL: ASDB file was created in location C:\Users\carlos\Desktop\Logica\Logica-Digital---Practicas-de-Laboratorio-\Práctica #05\Sesión 2\Control\Control\src\wave.asdb
-#  9:41 p. m., viernes, 26 de abril de 2019
-#  Simulation has been initialized
-wave
-# Waveform file 'untitled.awc' connected to 'C:/Users/carlos/Desktop/Logica/Logica-Digital---Practicas-de-Laboratorio-/Práctica #05/Sesión 2/Control/Control/src/wave.asdb'.
-wave  /FF_D/*
-# 6 signal(s) traced.
-run 100 ns
-# KERNEL: stopped at time: 100 ns
-endsim
-# VSIM: Simulation has finished.
-asim -O5 +access +r +m+FF_D FF_D FF_D
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.8 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.3 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 7068 kB (elbread=1280 elab2=5650 kernel=137 sdf=0)
-# KERNEL: ASDB file was created in location C:\Users\carlos\Desktop\Logica\Logica-Digital---Practicas-de-Laboratorio-\Práctica #05\Sesión 2\Control\Control\src\wave.asdb
-#  9:45 p. m., viernes, 26 de abril de 2019
-#  Simulation has been initialized
-# Waveform file 'untitled.awc' connected to 'C:/Users/carlos/Desktop/Logica/Logica-Digital---Practicas-de-Laboratorio-/Práctica #05/Sesión 2/Control/Control/src/wave.asdb'.
-run 100 ns
-# KERNEL: stopped at time: 100 ns
-# Waveform file 'C:/Users/carlos/Desktop/Logica/Logica-Digital---Practicas-de-Laboratorio-/Práctica #05/Sesión 2/Control/Simulacion 1.awc' connected to 'C:/Users/carlos/Desktop/Logica/Logica-Digital---Practicas-de-Laboratorio-/Práctica #05/Sesión 2/Control/Simulacion 1.asdb'.
-# Adding file C:\Users\carlos\Desktop\Logica\Logica-Digital---Practicas-de-Laboratorio-\Práctica #05\Sesión 2\Control\Simulacion 1.asdb ... Done
-# Adding file C:\Users\carlos\Desktop\Logica\Logica-Digital---Practicas-de-Laboratorio-\Práctica #05\Sesión 2\Control\Simulacion 1.awc ... Done
-acom -O3 -e 100 -work Control -2002  $dsn/src/FF_JK.vhd
+acom -O3 -e 100 -work Control -2002  $dsn/src/MUX21.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:\Users\carlos\Desktop\Logica\Logica-Digital---Practicas-de-Laboratorio-\Práctica #05\Sesión 2\Control\Control\src\FF_JK.vhd
-# Compile Entity "FF_JK"
-# Compile Architecture "FF_JK" of Entity "FF_JK"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.8 [s]
-acom -O3 -e 100 -work Control -2002  $dsn/src/FF_JK.vhd
+# File: C:\Users\carlos\Desktop\Logica\Logica-Digital---Practicas-de-Laboratorio-\Práctica #05\Sesión 2\Control\Control\src\MUX21.vhd
+# Compile Entity "MUX21"
+# Compile Architecture "MUX21" of Entity "MUX21"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.7 [s]
+acom -O3 -e 100 -work Control -2002  $dsn/src/MUX41.bde
+# DRC: Checking file 'C:\Users\carlos\Desktop\Logica\Logica-Digital---Practicas-de-Laboratorio-\Práctica #05\Sesión 2\Control\Control\src\MUX41.bde'.
+# DRC: MUX41.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\Users\carlos\Desktop\Logica\Logica-Digital---Practicas-de-Laboratorio-\Práctica #05\Sesión 2\Control\Control\compile\MUX41.vhd from C:\Users\carlos\Desktop\Logica\Logica-Digital---Practicas-de-Laboratorio-\Práctica #05\Sesión 2\Control\Control\src\MUX41.bde ...
+# Generation successful
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:\Users\carlos\Desktop\Logica\Logica-Digital---Practicas-de-Laboratorio-\Práctica #05\Sesión 2\Control\Control\src\FF_JK.vhd
-# Compile Entity "FF_JK"
-# Compile Architecture "FF_JK" of Entity "FF_JK"
-# Compile success 0 Errors 0 Warnings  Analysis time :  3.0 [s]
-asim +access +r -advdataflow FF_D FF_JK
-# Warning: Verilog Optimization cannot be used when -advdataflow is in effect. Verilog Optimization disabled.
-# VSIM: Simulation has finished.
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.7 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# ELAB2: Elaboration final pass complete - time: 0.7 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 7069 kB (elbread=1280 elab2=5651 kernel=137 sdf=0)
-# KERNEL: ASDB file was created in location C:\Users\carlos\Desktop\Logica\Logica-Digital---Practicas-de-Laboratorio-\Práctica #05\Sesión 2\Control\Control\src\wave.asdb
-#  10:11 p. m., viernes, 26 de abril de 2019
-#  Simulation has been initialized
-wave
-# Waveform file 'untitled.awc' co
+# File: .\..\compile\MUX41.vhd
+# Compile Entity "MUX41"
+# Compile Architecture "MUX41" of Entity "MUX41"
+# Compile success 0 Errors 0 Warnings  Analysis time :  2.0 [s]
+acom -O3 -e 100 -work Control -2002  $dsn/src/UC.bde
+# DRC: Checking file 'C:\Users\carlos\Desktop\Logica\Logica-Digital---Practicas-de-Laboratorio-\Práctica #05\Sesión 2\Control\Control\src\UC.bde'.
+# DRC: Error: UC.bde - 1 error(s), 4 warning(s)
+# DRC: DRC process completed in 3 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+acom -O3 -e 100 -work Control -2002  $dsn/src/UC.bde
+# DRC: Checking file 'C:\Users\carlos\Desktop\Logica\Logica-Digital---Practicas-de-Laboratorio-\Práctica #05\Sesión 2\Control\Control\src\UC.bde'.
+# DRC: Error: UC.bde - 1 error(s), 2 warning(s)
+# DRC: DRC process completed in 3 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+acom -O3 -e 100 -work Control -2002  $dsn/src/UC.bde
+# DRC: Checking file 'C:\Users\carlos\Desktop\Logica\Logica-Digital---Practicas-de-Laboratorio-\Práctica #05\Sesión 2\Control\Control\src\UC.bde'.
+# DRC: UC.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 3 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\Users\carlos\Desktop\Logica\Logica-Digital---Practicas-de-Laboratorio-\Práctica #05\Sesión 2\Control\Control\compile\UC.vhd from C:\Users\carlos\Desktop\Logica\Logica-Digital---Practicas-de-Laboratorio-\Práctica #05\Sesión 2\Control\Control\src\UC.bde ...
+# Generation successful
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: .\..\compile\UC.vhd
+# Compile Entity "UC"
+# Compile Architecture "UC" of Entity "UC"
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
