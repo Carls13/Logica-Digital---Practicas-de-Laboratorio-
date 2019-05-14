@@ -8,7 +8,7 @@
 -------------------------------------------------------------------------------
 --
 -- File        : C:\Users\carlos\Desktop\Logica\Logica-Digital---Practicas-de-Laboratorio-\Práctica #05\Sesión 2\Control\Control\compile\UC.vhd
--- Generated   : Fri May  3 09:25:03 2019
+-- Generated   : Mon May 13 19:34:35 2019
 -- From        : C:\Users\carlos\Desktop\Logica\Logica-Digital---Practicas-de-Laboratorio-\Práctica #05\Sesión 2\Control\Control\src\UC.bde
 -- By          : Bde2Vhdl ver. 2.6
 --
@@ -92,6 +92,8 @@ signal NET457 : STD_LOGIC;
 signal NET564 : STD_LOGIC;
 signal NET572 : STD_LOGIC;
 signal NET64 : STD_LOGIC;
+signal NET975 : STD_LOGIC;
+signal NET983 : STD_LOGIC;
 signal NN3 : STD_LOGIC;
 signal NQ0 : STD_LOGIC;
 signal NQ1 : STD_LOGIC;
@@ -99,6 +101,7 @@ signal NT : STD_LOGIC;
 signal Q0 : STD_LOGIC;
 signal Q1 : STD_LOGIC;
 signal X : STD_LOGIC;
+signal Y : STD_LOGIC;
 
 begin
 
@@ -117,7 +120,7 @@ K0 <= NET457 or NET449;
 
 V1 <= Q0 and NQ1;
 
-V2 <= NQ0 and Q1;
+Y <= NQ0 and Q1;
 
 X <= Q0 and Q1;
 
@@ -127,6 +130,8 @@ NET572 <= N3 and NQ0 and Q1;
 
 A <= NET572 or NET564;
 
+NET975 <= NQ1 and Inicio;
+
 U2 : FF_D
   port map(
        Clk => NET64,
@@ -135,6 +140,8 @@ U2 : FF_D
        Q => Q1,
        Reset => Clear
   );
+
+J0 <= NET983 or NET975;
 
 U3 : FF_JK
   port map(
@@ -157,16 +164,7 @@ U4 : MUX41
        Y => D1
   );
 
-U5 : MUX41
-  port map(
-       E(0) => GND,
-       E(1) => E1,
-       E(2) => GND,
-       E(3) => Inicio,
-       S0 => Q0,
-       S1 => Q1,
-       Y => J0
-  );
+NET983 <= Q1 and E1;
 
 NT <= not(T);
 
@@ -184,7 +182,8 @@ GND <= GND_CONSTANT;
 ---- Terminal assignment ----
 
     -- Output\buffer terminals
-	M <= X;
+	M <= Y;
+	V2 <= Y;
 	V3 <= X;
 
 

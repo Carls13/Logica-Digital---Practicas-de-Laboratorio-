@@ -44,7 +44,7 @@ architecture FF_JK of FF_JK is
 		 if (Reset = '1') then
 		 	estado <= '0';
 		 elsif (Clk'event and Clk = '1') then
-		 	estado <= J;
+		 	estado <= (J and not estado) or (not K and estado);
 		 end if;
 	end process;
 Q <= estado;
