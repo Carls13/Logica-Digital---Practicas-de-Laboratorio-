@@ -8,7 +8,7 @@
 -------------------------------------------------------------------------------
 --
 -- File        : C:\Users\carlos\Desktop\Logica\Logica-Digital---Practicas-de-Laboratorio-\Práctica #05\Sesión 2\Control\Control\compile\UC.vhd
--- Generated   : Mon May 13 19:34:35 2019
+-- Generated   : Sat Jun  1 22:56:35 2019
 -- From        : C:\Users\carlos\Desktop\Logica\Logica-Digital---Practicas-de-Laboratorio-\Práctica #05\Sesión 2\Control\Control\src\UC.bde
 -- By          : Bde2Vhdl ver. 2.6
 --
@@ -87,6 +87,7 @@ signal E1 : STD_LOGIC;
 signal GND : STD_LOGIC;
 signal J0 : STD_LOGIC;
 signal K0 : STD_LOGIC;
+signal NET1026 : STD_LOGIC;
 signal NET449 : STD_LOGIC;
 signal NET457 : STD_LOGIC;
 signal NET564 : STD_LOGIC;
@@ -126,9 +127,11 @@ X <= Q0 and Q1;
 
 NET564 <= T and NQ0 and Q1;
 
-NET572 <= N3 and NQ0 and Q1;
+NET572 <= NET1026 and NQ0 and Q1;
 
 A <= NET572 or NET564;
+
+NET1026 <= not(N3);
 
 NET975 <= NQ1 and Inicio;
 

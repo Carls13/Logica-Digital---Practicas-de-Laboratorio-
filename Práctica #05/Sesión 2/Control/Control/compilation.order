@@ -4,3 +4,4 @@
 .\src\MUX41.bde
 .\src\MUX21.vhd
 .\src\ClkDiv.vhd
+.\src\UC_Top.bde

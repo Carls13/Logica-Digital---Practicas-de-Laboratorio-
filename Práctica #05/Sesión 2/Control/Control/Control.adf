@@ -56,6 +56,14 @@ WAVEFORMS=
 DEFWAVE=1
 ADD_HIERARCHY_SIGNALS=0
 
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=ff_jk|ff_jk|0
+ShowHide=ShowTopLevel
+Selected=
+
 [Files]
 /FF_D.vhd=-1
 /..\..\Simulacion 1.asdb=-1
@@ -67,6 +75,7 @@ ADD_HIERARCHY_SIGNALS=0
 /MUX41.bde=-1
 /MUX21.vhd=-1
 /ClkDiv.vhd=-1
+/UC_Top.bde=-1
 
 [Files.Data]
 .\src\FF_D.vhd=VHDL Source Code
@@ -79,17 +88,14 @@ ADD_HIERARCHY_SIGNALS=0
 .\src\MUX41.bde=Block Diagram
 .\src\MUX21.vhd=VHDL Source Code
 .\src\ClkDiv.vhd=VHDL Source Code
-.\compile\UC.vhd=VHDL Source Code
+.\src\UC_Top.bde=Block Diagram
+.\compile\UC_Top.vhd=VHDL Source Code
 
+[file_out:/UC.bde]
+/..\compile\UC.vhd=-1
 
 [file_out:/MUX41.bde]
 /..\compile\MUX41.vhd=-1
 
-[SpecTracer]
-WindowVisible=0
-[HierarchyViewer]
-HierarchyInformation=ff_jk|ff_jk|0 
-ShowHide=ShowTopLevel
-Selected=
-[file_out:/UC.bde]
-/..\compile\UC.vhd=-1
+[file_out:/UC_Top.bde]
+/..\compile\UC_Top.vhd=-1
